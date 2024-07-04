@@ -1,0 +1,65 @@
+.frame{
+    background-color: #f4f4f4;
+    border: 2px solid #a8d2e0;
+    margin: 37px auto;
+    padding: 37px 42px;
+    text-align: center;
+    width: 790px;
+}
+
+.frame .title{
+	font-family: "Open Sans",sans-serif;
+	font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.frame .content .form,
+.frame .content .logo{
+	display: inline-block;
+	width: 392px;
+	vertical-align: top;
+	text-align: left;
+}
+
+.frame .content .form div{
+	/* padding-top: 12px; */
+	display: inline-block;
+}
+
+.frame .content .form .label{
+	text-align: left;
+	width: 92px;
+}
+
+.frame .content .form .input{
+	width: 200px;
+}
+
+.frame .content .logo img{
+	width: 320px;
+	padding: 16px;
+}
+
+.frame .content .form .input input,
+.frame .content .form .input button{
+	width: 200px;
+}
+
+.messenger{
+	display: none;
+	padding: 8px;
+    width: 864px;
+	margin: 16px auto;
+}
+
+.messenger.error{
+	border: 1px solid #FF0000;
+	background-color: #FFDDDD;
+}
+
+
+.messenger.success{
+	border: 1px solid #00FF00;
+	background-color: #DDFFDD;
+}

@@ -1,0 +1,47 @@
+svg path{
+  stroke-width: 1px;
+  opacity: 0.2;
+}
+
+path.selected{
+  stroke-width: 3;
+  stroke: #FFA600 !important;
+  fill: #FFA600 !important;
+  opacity: 1;
+}
+
+path.focused{
+  stroke-width: 2;
+  stroke: #b3cb2c !important;
+  fill: #b3cb2c !important;
+  opacity: 1;
+}
+
+svg text{
+  font-size: 10px;
+}
+
+svg text:hover,
+text.selected{
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#circle circle {
+  fill: none;
+  pointer-events: all;
+}
+
+.group path {
+  fill-opacity: .5;
+}
+
+
+path.chord {
+  stroke: #000;
+  stroke-width: .25px;
+}
+
+#circle:hover path.fade {
+  display: none;
+}

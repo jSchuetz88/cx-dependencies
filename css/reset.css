@@ -1,0 +1,71 @@
+/* -> Elemente <- */
+html,
+body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #FFFFFF;
+	line-height: 18px;
+}
+
+*{
+	font: 300 16px "Open Sans",sans-serif;
+}
+
+*[onClick],
+input[type="button"],
+button{
+	cursor: pointer;
+}
+
+input, button{
+	border: 1px solid #c4c4c4;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+	box-shadow: 0 1px 0 #f7f7f7 inset, 0 1px 0 rgba(255, 255, 255, 0.1);
+	height: 37px;
+	padding: 4px 9px;
+	margin: 4px 0;
+	box-sizing: border-box;
+}
+
+input[type="file"]{
+	height: auto;
+}
+
+button,
+input[type="button"]{
+	background-image: linear-gradient(to bottom, white 2%, #f4f4f4 98%);
+	font-weight: 400;
+}
+
+button:hover,
+input[type="button"]:hover{
+	background-image: linear-gradient(to bottom, #F8F8F8 2%, #f4f4f4 98%);
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+img{
+	border: none;
+}
+
+p,form{
+	margin: 0px;
+	padding: 0px;
+}
+
+table{
+	border: none;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table thead tr th{
+	text-align: left;	
+}

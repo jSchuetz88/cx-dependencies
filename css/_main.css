@@ -1,0 +1,67 @@
+
+
+.node circle.dot.and{
+	fill: #000000 !important;
+	stroke: none !important;
+}
+
+.node circle.dot.xor{
+	fill: #FFFFFF !important;
+	stroke: #000000 !important;
+	stroke-width: 2px;
+}
+
+.node circle.dot.or{
+	display: none;
+}
+
+
+
+.node circle.mandatory{
+  fill: #fff;
+  stroke: #FE5201;
+  stroke-width: 3px;
+}
+
+.node circle.optional{
+  fill: #fff;
+  stroke: #ffd84d;
+  stroke-width: 3px;
+}
+
+.line {
+  fill: none;
+  stroke: #3399ff;
+  stroke-width: 2px;
+}
+
+/*
+circle{
+	fill: #000099;
+}
+*/
+
+circle:hover{
+	stroke-width: 2px !important;
+	stroke: #6699FF !important;
+	opacity: 0.8;
+}
+
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text { font: 12px sans-serif; }
+
+.node--internal text {
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}

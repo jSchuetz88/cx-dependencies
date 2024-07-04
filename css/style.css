@@ -1,0 +1,25 @@
+/* -> Template übergreifende Styles */
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+#content h1{
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+#styl42dn{
+	background: #FFA600; /* Old browsers */
+	background: -moz-linear-gradient(top, #FFA600 0%, #b3cb2c 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #FFA600 0%,#b3cb2c 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #FFA600 0%,#b3cb2c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFA600', endColorstr='#b3cb2c',GradientType=0 );
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 16px;
+    bottom: 0;
+	z-index: 2;
+}

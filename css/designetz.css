@@ -1,0 +1,74 @@
+.item h1{
+	text-align: center;
+	margin: 0 0 8px;
+	font-size: 16px !important;
+}
+
+
+.item.interactive h1{
+	font-weight: normal !important;
+}
+
+.item.interactive:hover,
+.item.interactive.selected,
+.item.interactive:hover h1{
+	background-color: #EEEEEE !important;
+	font-weight: bold !important;
+}
+
+
+p.data{
+	text-align: center;
+	display: block;
+	font-size: 24px;
+	line-height: 28px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+p.data span{
+	font-size: 32px;
+	line-height: 28px;
+	font-weight: bold;
+}
+
+p.data span.NS{ color: #EE6C38; }
+p.data span.MS{ color: #33B078; }
+p.data span.HS{ color: #FAE615; }
+
+.item.c-data{
+	overflow-y: scroll !important;
+	overflow-x: hidden !important;
+	padding-bottom: 8px;
+}
+
+.icon{
+	border: 1px solid #CCC;
+	padding: 4px;
+	margin: 0 2px 4px;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	background-size: 100%;
+	border-radius: 4px;
+	box-shadow: -1px -1px 0px #FFF inset, 1px 1px 0px #FFF inset;
+}
+
+.icon.Strom{
+	background-image: url('/assets/dashboard/images/icons/strom.png');
+}
+.icon.Wärme{
+	background-image: url('/assets/dashboard/images/icons/waerme.png');
+}
+.icon.Gas{
+	background-image: url('/assets/dashboard/images/icons/gas.png');
+}
+.icon.Erdgas{
+	background-image: url('/assets/dashboard/images/icons/erdgas.png');
+}
+.icon.Biogas{
+	background-image: url('/assets/dashboard/images/icons/biogas.png');
+}
+.icon.Grubengas{
+	background-image: url('/assets/dashboard/images/icons/grubengas.png');
+}
