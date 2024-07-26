@@ -1,4 +1,4 @@
-d3.json("./charts/chord/data.json").then(function(dataset) {
+d3.json("./_data/R24.03.json").then(function(dataset) {
     master_data = dataset;
     // Dimensionen Generieren -> Zuordnung von Index zu Standard-Id.
     var dim_titles = [];
