@@ -1,0 +1,38 @@
+# Changelog
+
+## [0.5.0] - 2024-07-27
+
+### Added
+
+- Added names of selected and referenced standards for more clarity
+- Added links to the selected and references standards
+
+## [0.4.0] - 2024-07-01
+
+### Changed
+
+- Moved from PHP to JavaScript to enable gh-pages and a general accessability (https://jschuetz88.github.io/cx-dependencies/).
+
+## [0.3.1] - 2024-06-24
+
+### Fixed
+
+- Improved the parser to cover syntactically non-compliant references.
+
+## [0.3.0] - 2024-05-31
+
+### Added
+
+- Recognition and visualisation of deprecated references (usage of BAMM aspect models and deprecated standards)
+
+## [0.2.0] - 2024-05-24
+
+### Added
+
+- Recognition of referenced aspect models (BAMM and SAMM).
+
+## [0.1.0] - 2024-05-16
+
+### Added
+
+- First PoC: Recognition and visualisation of cross-references in standards.
