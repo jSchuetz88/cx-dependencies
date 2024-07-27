@@ -1,10 +1,10 @@
 var master_data;
 var release_data;
 
-d3.json("/_data/db.json").then(function(dataset) {
+d3.json("_data/db.json").then(function(dataset) {
   master_data = dataset;
 
-d3.json("/_data/R24.05.json").then(function(dataset) {
+d3.json("_data/R24.05.json").then(function(dataset) {
   release_data = dataset;
   // Dimensionen Generieren -> Zuordnung von Index zu Standard-Id.
   var dim_titles = [];
