@@ -1,5 +1,5 @@
-d3.json("./charts/chord/data.json").then(function(dataset) {
-    master_data = dataset;
+d3.json("./_data/R24.03.json").then(function(dataset) {
+    release_data = dataset;
     // Dimensionen Generieren -> Zuordnung von Index zu Standard-Id.
     var dim_titles = [];
     for (var i of Object.keys(dataset)){
@@ -121,8 +121,8 @@ d3.json("./charts/chord/data.json").then(function(dataset) {
     jQuery("#cx-id-view").text(selectedCXId);
     jQuery("#cx-id-references").html("<p style='font-weight: bold;'>Standard mentions the following documents:</p><ul></ul>");
   
-    // console.log(master_data[''+selectedCXId+''][0]);
-    for (var cx of master_data[''+selectedCXId+''][0]){
+    // console.log(release_data[''+selectedCXId+''][0]);
+    for (var cx of release_data[''+selectedCXId+''][0]){
       jQuery("#cx-id-references ul").append("<li data-cx='"+cx+"'>"+cx+"</li>");
     }
     jQuery("li[data-cx='CX-0004']").css("color", "red").append(" <b>Reference outdated!!!</b>");

@@ -1,7 +1,11 @@
 var master_data;
+var release_data;
 
-d3.json("./charts/chord/data2.json").then(function(dataset) {
+d3.json("./_data/db.json").then(function(dataset) {
   master_data = dataset;
+
+d3.json("./_data/R24.05.json").then(function(dataset) {
+  release_data = dataset;
   // Dimensionen Generieren -> Zuordnung von Index zu Standard-Id.
   var dim_titles = [];
   for (var i of Object.keys(dataset)){
@@ -30,9 +34,11 @@ d3.json("./charts/chord/data2.json").then(function(dataset) {
       x++;
   }
 
-  console.log(dm);
+  // console.log(dm);
 
   test(dim_titles, dm);
+
+});
 });
 
 function test(labels, matrix){
@@ -111,12 +117,22 @@ function test(labels, matrix){
       for (var i of outdated){
         jQuery("text[data-cx='"+i+"']").attr("stroke", "red").attr("fill", "red");
       }
+
+      /*
+      if(window.location.hash) {
+        var hash = window.location.hash.substring(1);
+     
+        hilight_selected(hash);
+      }
+      */
   };
 
 function hilight_selected(selected) {
+  // alert(selected);
   var selectedCXId = jQuery('.group-'+selected).text();
 
   dehilight();
+  window.location.href = "#"+selectedCXId;
 
   d3.select("#my_dataviz").selectAll("g.ribbons path[data-cx-target='"+selectedCXId+"']")
   .classed("focused", true)
@@ -132,11 +148,14 @@ function hilight_selected(selected) {
 
   // -> add standard references
   // refenced standards
-  jQuery("#cx-id-view").text(selectedCXId);
+  jQuery("#cx-id-view").text(selectedCXId + " - "+master_data[selectedCXId].title);
   jQuery("#cx-id-references").html("<p style='font-weight: bold;'>Standard mentions the following documents:</p><ul class='ref_cx'></ul>");
-  // console.log(master_data[''+selectedCXId+''][0]);
-  for (var cx of master_data[''+selectedCXId+''][0]){
-    jQuery("#cx-id-references ul.ref_cx").append("<li data-cx='"+cx+"'>"+cx+"</li>");
+  // console.log(release_data[''+selectedCXId+''][0]);
+  for (var cx of release_data[''+selectedCXId+''][0]){
+    jQuery("#cx-id-references ul.ref_cx").append("<li data-cx='"+cx+"'>"
+        +cx+" - "+master_data[cx].title
+        +(master_data[cx].url ? " (<a href=\""+master_data[cx].url+"\">open</a>)" : "")
+    +"</li>");
   }
 
   // hilight outdated standards
@@ -189,15 +208,15 @@ function hilight_selected(selected) {
   // -> add semantic references
   // refenced standards
   jQuery("#cx-id-references").append("<p style='font-weight: bold;'>Semantic models mentioned:</p><ul class='ref_sem'></ul>");
-  // console.log(master_data[''+selectedCXId+''][0]);
-  for (var sem of master_data[''+selectedCXId+''][1]){
+  // console.log(release_data[''+selectedCXId+''][0]);
+  for (var sem of release_data[''+selectedCXId+''][1]){
     jQuery("#cx-id-references ul.ref_sem").append("<li data-sem='"+sem+"'>"+sem+"</li>");
   }
   jQuery("#cx-id-references ul.ref_sem li:contains(bamm)").css("color", "red");
 }
 
 function hilight_focused(selected) {
-  // alert(".group-"+selected);
+
   d3.select("#my_dataviz").selectAll("g.ribbons path")
       .classed("focused", false)
       
