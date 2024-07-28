@@ -1,8 +1,8 @@
-a{
+#content a{
 	color: #FFA600;
 }
 
-a:hover{
+#content a:hover{
 	color: #b3cb2c;
 }
 
