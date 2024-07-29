@@ -65,7 +65,3 @@ table{
     border-collapse: collapse;
     width: 100%;
 }
-
-table thead tr th{
-	text-align: left;	
-}
