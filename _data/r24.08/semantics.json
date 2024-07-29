@@ -1,0 +1,1057 @@
+[
+    {
+        "id": "urn:bamm:io.catenax.asset_tracker_links:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.asset_tracker_links:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.batch:1.0.2",
+        "version": "1.0.2",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.batch:2.0.0",
+        "version": "2.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.batch:2.0.1",
+        "version": "2.0.1",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.batch:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.battery.battery_pass:3.0.0",
+        "version": "3.0.0",
+        "status": "standardize"
+    },
+    {
+        "id": "urn:bamm:io.catenax.battery.battery_pass:3.0.1",
+        "version": "3.0.1",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.battery.battery_pass:4.0.0",
+        "version": "4.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.battery.battery_pass:5.0.0",
+        "version": "5.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.battery.battery_pass:6.0.0",
+        "version": "6.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.battery.product_description:1.0.1",
+        "version": "1.0.1",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:bamm:io.catenax.bom_as_specified:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.bom_as_specified:1.0.1",
+        "version": "1.0.1",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.certificate_of_destruction:1.0.1",
+        "version": "1.0.1",
+        "status": "error"
+    },
+    {
+        "id": "urn:samm:io.catenax.certificate_of_destruction:2.0.0",
+        "version": "2.0.0",
+        "status": "draft"
+    },
+    {
+        "id": "urn:bamm:io.catenax.shared.address_characteristic:1.0.1",
+        "version": "1.0.1",
+        "status": "draft"
+    },
+    {
+        "id": "urn:samm:io.catenax.certificate_signing_requests:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.classified_load_spectrum:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.classified_load_spectrum:2.0.0",
+        "version": "2.0.0",
+        "status": "draft"
+    },
+    {
+        "id": "urn:samm:io.catenax.days_of_supply:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.days_of_supply:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.decomissioning_certificate:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.decomissioning_certificate:2.0.0",
+        "version": "2.0.0",
+        "status": "draft"
+    },
+    {
+        "id": "urn:samm:io.catenax.delivery_information:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.delivery_information:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.demand_and_capacity_notification:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.demand_and_capacity_notification:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.early_warning_notification:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.electric_drive.electric_drive_passport:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.electric_drive.electric_drive_passport:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.eol_story:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.eol_story:2.0.0",
+        "version": "2.0.0",
+        "status": "draft"
+    },
+    {
+        "id": "urn:samm:io.catenax.essincident:2.0.0",
+        "version": "2.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.essincident:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.essincident:4.0.0",
+        "version": "4.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.failure_pattern:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.fleet.claim_data:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.fleet.claim_data:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.fleet.diagnostic_data:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.fleet.diagnostic_data:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.fleet.vehicles:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.fleet.vehicles:2.0.0",
+        "version": "2.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.fleet.vehicles:2.1.0",
+        "version": "2.1.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.fleet.vehicles:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.generic.digital_product_passport:2.0.0",
+        "version": "2.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.generic.digital_product_passport:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.generic.digital_product_passport:4.0.0",
+        "version": "4.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.generic.digital_product_passport:5.0.0",
+        "version": "5.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.global_transport_label:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.id_based_comment:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.id_based_request_for_update:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.id_based_request_for_update:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.id_based_request_for_update:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.idconversion:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.idconversion:2.0.0",
+        "version": "2.0.0",
+        "status": "draft"
+    },
+    {
+        "id": "urn:bamm:io.catenax.individual_asset_definition:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.individual_asset_definition:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.iot_sensor_data:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.iot_sensor_data:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.iot_sensor_device_definition:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.iot_sensor_device_definition:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.item_stock:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.item_stock:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.just_in_sequence_part:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.just_in_sequence_part:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.just_in_sequence_part:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.mandatory_dismantling:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.manufactured_parts_quality_information:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.manufactured_parts_quality_information:2.0.0",
+        "version": "2.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.manufactured_parts_quality_information:2.1.0",
+        "version": "2.1.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.manufacturing_capability:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.manufacturing_capability:2.0.0",
+        "version": "2.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.manufacturing_capability:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.manufacturing_capability:3.1.0",
+        "version": "3.1.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.market_place_offer:1.2.0",
+        "version": "1.2.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.market_place_offer:1.4.0",
+        "version": "1.4.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.market_place_offer:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.material.chemical_material_passport:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.material.chemical_material_passport:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.material_demand:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.material_flow_scenario_request:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.material_flow_scenario_request:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.material_flow_simulation_result:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.material_flow_simulation_result:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.material_flow_simulation_result:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.shared.address_characteristic:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.material_for_homologation:2.0.0",
+        "version": "2.0.0",
+        "status": "draft"
+    },
+    {
+        "id": "urn:samm:io.catenax.material_recycling_certificate:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.packing_list:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.part_as_planned:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.part_as_specified:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.part_as_specified:1.0.1",
+        "version": "1.0.1",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.part_as_specified:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.part_as_specified:3.0.0",
+        "version": "3.0.0",
+        "status": "draft"
+    },
+    {
+        "id": "urn:bamm:io.catenax.part_site_information_as_planned:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.part_type_information:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.parts_analyses:2.0.0",
+        "version": "2.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.parts_analyses:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.pcf:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.pcf:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.pcf:4.0.0",
+        "version": "4.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.pcf:4.0.1",
+        "version": "4.0.1",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.pcf:5.0.0",
+        "version": "5.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.pcf:6.0.0",
+        "version": "6.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.pcf:7.0.0",
+        "version": "7.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.planned_production_output:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.planned_production_output:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.product_stock:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.product_stock:2.0.0",
+        "version": "2.0.0",
+        "status": "draft"
+    },
+    {
+        "id": "urn:bamm:io.catenax.quality_task:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.quality_task:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.quality_task_attachment:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.quality_task_attachment:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.refurbishing_certificate:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.refurbishing_certificate:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.refurbishing_certificate:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.remanufacturing_certificate:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.remanufacturing_certificate:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.remanufacturing_certificate:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.repair_certificate:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.request_for_quotation:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.request_for_quotation:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.request_for_quotation:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.return_request:1.1.1",
+        "version": "1.1.1",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.return_request:1.1.2",
+        "version": "1.1.2",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.return_request:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.reuse_certificate:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.reuse_certificate:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.reuse_certificate:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.rul:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.rul:2.0.0",
+        "version": "2.0.0",
+        "status": "draft"
+    },
+    {
+        "id": "urn:bamm:io.catenax.sealant.sealant_pass:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.secondary_material_content:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.secondary_material_content_calculated:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.secondary_material_content_verifiable:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.serial_part:1.0.1",
+        "version": "1.0.1",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.serial_part:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.serial_part:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.shared.address_characteristic:1.0.1",
+        "version": "1.0.1",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.shared.address_characteristic:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.address_characteristic:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.address_characteristic:4.0.0",
+        "version": "4.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.bill_of_process:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.bill_of_process:1.1.0",
+        "version": "1.1.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.business_partner_certificate:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.business_partner_number:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.business_partner_number:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.shared.contact_information:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.shared.contact_information:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.contact_information:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.contact_information:4.0.0",
+        "version": "4.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.message_header:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.message_header:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.message_header:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.part_classification:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.part_site_information_as_built:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.part_site_information_as_built:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.shared.physical_dimension:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.shared.physical_dimension:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.physical_dimension:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.quantity:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.quantity:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.shared.recycling_strategy_certificate:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.recycling_strategy_certificate:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.recycling_strategy_certificate:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.secondary_material_content:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.shopfloor_information_types:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.shopfloor_information_types:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.uuid:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shared.uuid:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shopfloor_information.get_production_forecast:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shopfloor_information.get_production_forecast:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shopfloor_information.get_production_tracking:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shopfloor_information.provide_production_forecast:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shopfloor_information.provide_production_forecast:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.shopfloor_information.provide_production_tracking:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.short_term_material_demand:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.single_level_bom_as_built:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.single_level_bom_as_built:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.single_level_bom_as_built:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.single_level_bom_as_planned:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.single_level_bom_as_planned:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.single_level_bom_as_specified:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.single_level_bom_as_specified:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.single_level_usage_as_built:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.single_level_usage_as_built:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.single_level_usage_as_planned:1.1.0",
+        "version": "1.1.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.single_level_usage_as_planned:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.software_information:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.time_series_reference:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:bamm:io.catenax.traction_battery_code:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.traction_battery_code:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.transmission.transmission_pass:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:samm:io.catenax.transmission.transmission_pass:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.transmission.transmission_pass:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.user_estimated_loading:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.user_estimated_loading:2.0.0",
+        "version": "2.0.0",
+        "status": "draft"
+    },
+    {
+        "id": "urn:bamm:io.catenax.vehicle.product_description:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.vehicle.product_description:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.vehicle.product_description:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.waste:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.waste:2.0.0",
+        "version": "2.0.0",
+        "status": "draft"
+    },
+    {
+        "id": "urn:samm:io.catenax.waste_certificate:1.0.0",
+        "version": "1.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.week_based_capacity_group:1.0.1",
+        "version": "1.0.1",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.week_based_capacity_group:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.week_based_capacity_group:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:bamm:io.catenax.week_based_material_demand:1.0.0",
+        "version": "1.0.0",
+        "status": "deprecate"
+    },
+    {
+        "id": "urn:bamm:io.catenax.week_based_material_demand:1.0.1",
+        "version": "1.0.1",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.week_based_material_demand:2.0.0",
+        "version": "2.0.0",
+        "status": "release"
+    },
+    {
+        "id": "urn:samm:io.catenax.week_based_material_demand:3.0.0",
+        "version": "3.0.0",
+        "status": "release"
+    }
+]

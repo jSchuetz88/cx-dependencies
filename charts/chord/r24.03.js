@@ -1,4 +1,4 @@
-d3.json("./_data/R24.03.json").then(function(dataset) {
+d3.json("./_data/r24.03/standards.json").then(function(dataset) {
     release_data = dataset;
     // Dimensionen Generieren -> Zuordnung von Index zu Standard-Id.
     var dim_titles = [];
