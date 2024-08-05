@@ -1,4 +1,3 @@
-
 {
     "CX-0001": [
         [
@@ -17,7 +16,9 @@
             "CX-0001",
             "CX-0053"
         ],
-        []
+        [
+            "urn:bamm:io.catenax.material_for_recycling:1.1.0"
+        ]
     ],
     "CX-0003": [
         [
@@ -77,7 +78,9 @@
         []
     ],
     "CX-0008": [
-        [],
+        [
+            "CX-0008"
+        ],
         []
     ],
     "CX-0009": [
@@ -88,7 +91,9 @@
         []
     ],
     "CX-0010": [
-        [],
+        [
+            "CX-0010"
+        ],
         []
     ],
     "CX-0011": [
@@ -124,7 +129,9 @@
         []
     ],
     "CX-0015": [
-        [],
+        [
+            "CX-0015"
+        ],
         []
     ],
     "CX-0018": [
@@ -144,7 +151,9 @@
             "CX-0002",
             "CX-0003"
         ],
-        []
+        [
+            "urn:samm:io.catenax.single_level_bom_as_specified:2.0.0"
+        ]
     ],
     "CX-0031": [
         [
@@ -164,7 +173,9 @@
             "CX-0002",
             "CX-0003"
         ],
-        []
+        [
+            "urn:bamm:io.catenax.bom_as_specified:2.0.0"
+        ]
     ],
     "CX-0044": [
         [
@@ -193,7 +204,9 @@
         []
     ],
     "CX-0050": [
-        [],
+        [
+            "CX-0050"
+        ],
         []
     ],
     "CX-0053": [
@@ -272,7 +285,9 @@
             "CX-0018",
             "CX-0001"
         ],
-        []
+        [
+            "urn:bamm:io.catenax.end_of_life_of_vehicle_compliance:1.0.0"
+        ]
     ],
     "CX-0067": [
         [
@@ -380,7 +395,9 @@
             "CX-0003",
             "CX-0004"
         ],
-        []
+        [
+            "urn:bamm:io.catenax.part_site_information_as_planned:1.0.0"
+        ]
     ],
     "CX-0102": [
         [
@@ -573,7 +590,9 @@
             "CX-0001",
             "CX-0003"
         ],
-        []
+        [
+            "urn:samm:io.catenax.traction_battery_code:2.0.0"
+        ]
     ],
     "CX-0126": [
         [
@@ -700,10 +719,14 @@
             "CX-0003",
             "CX-0018"
         ],
-        []
+        [
+            "urn:samm:io.catenax.material_flow_scenario_request:2.0.0"
+        ]
     ],
     "CX-0135": [
-        [],
+        [
+            "CX-0135"
+        ],
         []
     ],
     "CX-0136": [
@@ -824,7 +847,9 @@
             "CX-0067",
             "CX-0084"
         ],
-        []
+        [
+            "urn:bamm:io.catenax.essincident:3.0.0"
+        ]
     ],
     "CX-0145": [
         [
@@ -865,7 +890,9 @@
             "CX-0128",
             "CX-0145"
         ],
-        []
+        [
+            "urn:samm:io.catenax.demand_and_capacity_notification:2.0.0"
+        ]
     ],
     "CX-0149": [
         [
@@ -880,4 +907,4 @@
         ],
         []
     ]
-}
+}<br /><br />
