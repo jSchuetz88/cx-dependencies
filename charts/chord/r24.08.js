@@ -1,60 +1,64 @@
-var master_data;
-var release_data;
+jQuery(document ).ready(function() {
+  new dbLoader().init('./_data/db.json', function(stdset){
+    CX.Standards.Manager.init(stdset);
 
-d3.json("./_data/db.json").then(function(dataset) {
-  master_data = dataset;
+    new dbLoader().init('./_data/r24.08/standards.json', function(depset){
+      CX.Standards.Manager.addDependencies(depset);
+    });		
+  });
+});
 
-d3.json("./_data/r24.08/standards.json").then(function(dataset) {
-  release_data = dataset;
+var groupToCategory = [];
+
+CX.Standards.Manager.onReady(function(){
+
   // Dimensionen Generieren -> Zuordnung von Index zu Standard-Id.
   var dim_titles = [];
-  for (var i of Object.keys(dataset)){
-      dim_titles.push(i);
+  var x = 0;
+
+  for (var cxId of Object.keys(CX.getAllStandards('onlyValid'))){
+      dim_titles.push(cxId);
+      groupToCategory[x] = CX.getStandard(cxId).getCategory();
+      x++;
   }
 
   var dm = [];
   var x = 0;
   var z = 0;
-  for (var i of Object.keys(dataset)){
+  for (var i of Object.keys(CX.getAllStandards('onlyValid'))){
       z = 0;
       dm[x] = [];
 
-      console.log(i+" => "+ dataset[i][0]);
-        for (var j of Object.keys(dataset)){
-          if(dataset[i][0].includes(j)){
-            console.log(x+" ; "+z+" => "+j);
+      for (var j of Object.keys(CX.getAllStandards('onlyValid'))){
+          if(CX.getStandard(i).getDependencies().getStandards().includes(j)){
+            // console.log(x+" ; "+z+" => "+j);
             dm[x][z] = 1; // debug: output j
           }else{
             dm[x][z] = 0;
           }
-
           z++;
       }
-
       x++;
   }
 
-  // console.log(dm);
-
-  test(dim_titles, dm);
+  genChord(dim_titles, dm);
 
 });
-});
 
-function test(labels, matrix){
+function genChord(labels, matrix){
       // create the svg area
       var parentSelector = '#my_dataviz';
       var cssid = 'my_dataviz';
       var cssclass = 'my_dataviz';
       // var colors = ['#b3cb2c', '#FFA600'];
       var colors = ['#646363'];
-      var getWidth = function () { return 958 };
-      var getHeight = function () { return 968 };
+      var getWidth = function () { return 962 };
+      var getHeight = function () { return 962 };
       var svg = d3.select(parentSelector)
         .attr('class', cssclass)
         .attr('id', cssid);
-      var outerRadius = Math.min(getWidth(), getHeight()) * 0.5 - 56;
-      var innerRadius = outerRadius - 30;
+      var outerRadius = Math.min(getWidth(), getHeight()) * 0.5 - 72;
+      var innerRadius = outerRadius - 4;
       var colorsMap = d3.scaleOrdinal().range(colors);
       var arc = d3.arc()
         .innerRadius(innerRadius)
@@ -65,7 +69,7 @@ function test(labels, matrix){
       var ribbon = d3.ribbon()
         .radius(innerRadius)
       var g = svg.append('g')
-        .attr('transform', 'translate(' + getWidth() / 2 + ',' + getHeight() / 2 + ')')
+        .attr('transform', 'translate(' + (getWidth() / 2) + ',' + (getHeight() / 2) + ')')
         .datum(chord(matrix))
       var groups = g.append('g')
         .attr('class', 'groups')
@@ -74,6 +78,7 @@ function test(labels, matrix){
         .enter()
         .append('g')
         .attr('class', 'group')
+
       var arcSvg = group.append('path')
         .attr("class", function(d, i) { return "arc group-" + d.index; })
         .attr('d', arc)
@@ -81,10 +86,11 @@ function test(labels, matrix){
         .style('stroke', function (d) { return colorsMap(d.index) });
 
       group.append('text')
-          .attr('dy', '0.35em')
+          //  .attr("dy", "0.35em");
+          .attr("dy", function(d) { return (d.startAngle > Math.PI ? ((matrix[d.index].reduce((a, b) => a + b, 0)+1)*(-1.25)) : (matrix[d.index].reduce((a, b) => a + b, 0))*(2.25))+"px"; })
           .attr("transform", function(d) {
               return "rotate(" + (d.startAngle * 180 / Math.PI - 90) + ")"
-                  + "translate(" + (innerRadius + 64) + ") "
+                  + "translate(" + (innerRadius + 40) + ") "
                   + (d.startAngle > Math.PI ? "rotate(180)" : "");
               })
           .attr("class", function(d, i) { return "group-label group-" + d.index; })
@@ -108,28 +114,54 @@ function test(labels, matrix){
         .style('fill', function (d) { return colorsMap(d.target.index) })
         .style('stroke', function (d) { return colorsMap(d.target.index) });
 
+  // ::::::
+  // Compute the chord layout
+  var chords = chord(matrix);
 
-        var outdated = ['CX-0004', 'CX-0085', 'CX-0086', 'CX-0072', 'CX-0073', 'CX-0087', 'CX-0056', 'CX-0057', 'CX-0058',
-        'CX-0051', 'CX-0016', 'CX-0017', 'CX-0019', 'CX-0020', 'CX-0021', 'CX-0042', 'CX-0043', 'CX-0023', 'CX-0022', 'CX-0060', 
-        'CX-0036', 'CX-0037', 'CX-0038', 'CX-0039', 'CX-0040', 'CX-0041', 'CX-0091', 'CX-0092', 'CX-0147', 'CX-0148', 'CX-0107', 'CX-0109',
-        'CX-0111', 'CX-0033', 'CX-0035', 'CX-0088', 'CX-0057', 'CX-0090', 'CX-0089', 'CX-0026', 'CX-0028', 'CX-0134', 'CX-0063'];
-    
-      for (var i of outdated){
-        jQuery("text[data-cx='"+i+"']").attr("stroke", "red").attr("fill", "red");
-      }
+  // Calculate the start and end angles for each category
+  var categoryAngles = {};
+  chords.groups.forEach((d, i) => {
+    var category = groupToCategory[d.index];
+    if (!categoryAngles[category]) {
+      categoryAngles[category] = {startAngle: d.startAngle, endAngle: d.endAngle};
+    } else {
+      categoryAngles[category].endAngle = d.endAngle;
+    }
+  });
+  
+  // Add the second level of outer arcs
+  var secondArc = d3.arc()
+      .innerRadius(outerRadius+4)
+      .outerRadius(outerRadius+12);
+  
+  var categoryGroup = svg.append("g")
+    .attr('transform', 'translate(' + (getWidth() / 2) + ',' + ((getHeight() / 2)) + ')')
+    .selectAll("g")
+    .data(Object.entries(categoryAngles))
+    .enter().append("g");
+  
+  categoryGroup.append("path")
+      .style("fill", "none")
+      .style("stroke", "#FFA600")
+      .attr('class', 'outerarc')
 
-      /*
-      if(window.location.hash) {
-        var hash = window.location.hash.substring(1);
-     
-        hilight_selected(hash);
-      }
-      */
+      .attr("d", d => secondArc(d[1]));
+
+      categoryGroup.append('text')
+          .attr('dy', '0.35em')
+          .attr("transform", function(d) {
+              return "rotate(" + (d.startAngle * 180 / Math.PI - 90) + ")"
+                  + "translate(" + (innerRadius + 64) + ") "
+                  + (d.startAngle > Math.PI ? "rotate(180)" : "");
+              })
+          // .attr("onmouseover", function(d, i) { return "hilight_focused("+d.index+");"; })
+          // .text(function (d) { return "AAA"});
+
   };
 
 function hilight_selected(selected) {
-  // alert(selected);
   var selectedCXId = jQuery('.group-'+selected).text();
+  test(selectedCXId);
 
   dehilight();
   window.location.href = "#"+selectedCXId;
@@ -148,68 +180,29 @@ function hilight_selected(selected) {
 
   // -> add standard references
   // refenced standards
-  jQuery("#cx-id-view").text(selectedCXId + " - "+master_data[selectedCXId].title);
+  jQuery("#cx-id-view").text(selectedCXId + " - "+CX.getStandard(selectedCXId).getName());
   jQuery("#cx-id-references").html("<p style='font-weight: bold;'>Standard mentions the following documents:</p><ul class='ref_cx'></ul>");
   // console.log(release_data[''+selectedCXId+''][0]);
-  for (var cx of release_data[''+selectedCXId+''][0]){
-    jQuery("#cx-id-references ul.ref_cx").append("<li data-cx='"+cx+"'>"
-        +cx+" - "+master_data[cx].title
-        +(master_data[cx].url ? " (<a href=\""+master_data[cx].url+"\">open</a>)" : "")
+
+  // List all references standards
+  for (var cxId of CX.getStandard(selectedCXId).getDependencies().getStandards()){
+    jQuery("#cx-id-references ul.ref_cx").append("<li data-cx='"+cxId+"'>"
+        +cxId+" - "+CX.getStandard(cxId).getName()
+        +(CX.getStandard(cxId).getURL() ? " (<a href=\""+CX.getStandard(cxId).getURL()+"\">open</a>)" : "")
     +"</li>");
   }
 
-  // hilight outdated standards
-  jQuery("li[data-cx='CX-0004']").css("color", "red").append(" <b>Reference outdated since R24.03 (embodied by the TC4M)</b>");
-  jQuery("li[data-cx='CX-0085']").css("color", "red").append(" <b>Reference outdated since R24.03 (merged by CX-0118 and CX-0122)</b>");
-  jQuery("li[data-cx='CX-0086']").css("color", "red").append(" <b>Reference outdated since R24.03 (merged by CX-0118 and CX-0122)</b>");
-  jQuery("li[data-cx='CX-0072']").css("color", "red").append(" <b>Reference outdated since R24.03 (merged by CX-0133 - Online Control and Simulation)</b>");
-  jQuery("li[data-cx='CX-0073']").css("color", "red").append(" <b>Reference outdated since R24.03 (merged by CX-0133 - Online Control and Simulation)</b>");
-  jQuery("li[data-cx='CX-0087']").css("color", "red").append(" <b>Reference outdated since R24.03 (merged by CX-0133 - Online Control and Simulation)</b>");
-  jQuery("li[data-cx='CX-0056']").css("color", "red").append(" <b>Reference outdated since R24.03 (merged by CX-0059 - Use Case Behavioral Twin Endurance Predictor Service)</b>");
-  jQuery("li[data-cx='CX-0057']").css("color", "red").append(" <b>Reference outdated since R24.03 (merged by CX-0059 - Use Case Behavioral Twin Endurance Predictor Service)</b>");
-  jQuery("li[data-cx='CX-0058']").css("color", "red").append(" <b>Reference outdated since R24.03 (merged by CX-0059 - Use Case Behavioral Twin Endurance Predictor Service)</b>");
+  // hilight all outdated standards
+  for (var cxId of Object.keys(CX.getAllStandards())){
+    if(CX.getStandard(cxId).isDeprecated()){
+      jQuery("li[data-cx='"+cxId+"']").css("color", "red").append(" (Deprecated)");
+    }
+  }
 
-  jQuery("li[data-cx='CX-0051']").css("color", "red").append(" <b>Reference outdated!!!</b>");
-  jQuery("li[data-cx='CX-0016']").css("color", "red").append(" <b>Reference outdated since R24.05 (merged by CX-0149 Verified Company identity)</b>");
-  jQuery("li[data-cx='CX-0017']").css("color", "red").append(" <b>Reference outdated since R24.05 (merged by CX-0149 Verified Company identity)</b>");
-  jQuery("li[data-cx='CX-0019']").css("color", "red").append(" <b>Reference outdated since R24.05 (merged by CX-0127 Industry Core Part Instance)</b>");
-  jQuery("li[data-cx='CX-0020']").css("color", "red").append(" <b>Reference outdated since R24.05 (merged by CX-0127 Industry Core Part Instance)</b>");
-  jQuery("li[data-cx='CX-0021']").css("color", "red").append(" <b>Reference outdated since R24.05 (merged by CX-0127 Industry Core Part Instance)</b>");
-  jQuery("li[data-cx='CX-0042']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged by CX-0126 Industry Core Part Type)</b>");
-  jQuery("li[data-cx='CX-0043']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged by CX-0126 Industry Core Part Type)</b>");
-  jQuery("li[data-cx='CX-0023']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged by CX-0125 Traceability Use Case)</b>");
-  jQuery("li[data-cx='CX-0022']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged by CX-0125 Traceability Use Case)</b>");
-  jQuery("li[data-cx='CX-0060']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged by CX-0125 Traceability Use Case)</b>");
-  jQuery("li[data-cx='CX-0036']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged by CX-0125 Traceability Use Case)</b>");
-  jQuery("li[data-cx='CX-0037']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged by CX-0125 Traceability Use Case)</b>");
-  jQuery("li[data-cx='CX-0038']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged by CX-0125 Traceability Use Case)</b>");
-  jQuery("li[data-cx='CX-0039']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged by CX-0125 Traceability Use Case)</b>");
-  jQuery("li[data-cx='CX-0040']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged by CX-0125 Traceability Use Case)</b>");
-  jQuery("li[data-cx='CX-0041']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged by CX-0125 Traceability Use Case)</b>");
-  jQuery("li[data-cx='CX-0091']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged by CX-0125 Traceability Use Case)</b>");
-  jQuery("li[data-cx='CX-0092']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged by CX-0125 Traceability Use Case)</b>");
-  jQuery("li[data-cx='CX-0147']").css("color", "red").append(" <b>Reference outdated since R24.05 Merged by CX-0125 Traceability Use Case()</b>");
-  jQuery("li[data-cx='CX-0148']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged by CX-0125 Traceability Use Case)</b>");
-  jQuery("li[data-cx='CX-0107']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged by CX-0125 Traceability Use Case)</b>");
-  jQuery("li[data-cx='CX-0109']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged by CX-0125 Traceability Use Case)</b>");
-  jQuery("li[data-cx='CX-0111']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged by CX-0125 Traceability Use Case)</b>");
-  jQuery("li[data-cx='CX-0033']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged into CX-0117 Use Case Circular Economy - Secondary Marketplace)</b>");
-  jQuery("li[data-cx='CX-0035']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged into CX-0117 Use Case Circular Economy - Secondary Marketplace)</b>");
-  jQuery("li[data-cx='CX-0088']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged into CX-0143 Use Case Circular Economy Digital Product Pass)</b>");
-  jQuery("li[data-cx='CX-0057']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged into CX-0143 Use Case Circular Economy Digital Product Pass)</b>");
-  jQuery("li[data-cx='CX-0090']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged into CX-0143 Use Case Circular Economy Digital Product Pass)</b>");
-  jQuery("li[data-cx='CX-0089']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged into CX-0143 Use Case Circular Economy Digital Product Pass)</b>");
-  jQuery("li[data-cx='CX-0026']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged into CX-0136 Use Case PCF)</b>");
-  jQuery("li[data-cx='CX-0028']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged into CX-0136 Use Case PCF)</b>");
-  jQuery("li[data-cx='CX-0134']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged into CX-0136 Use Case PCF)</b>");
-  jQuery("li[data-cx='CX-0063']").css("color", "red").append(" <b>Reference outdated since R24.05 (Merged into CX-0136 Use Case PCF)</b>");
-
-
-  // -> add semantic references
-  // refenced standards
+  // List all referenced semantic models
   jQuery("#cx-id-references").append("<p style='font-weight: bold;'>Semantic models mentioned:</p><ul class='ref_sem'></ul>");
   // console.log(release_data[''+selectedCXId+''][0]);
-  for (var sem of release_data[''+selectedCXId+''][1]){
+  for (var sem of CX.getStandard(selectedCXId).getDependencies().getSemantics()){
     jQuery("#cx-id-references ul.ref_sem").append("<li data-sem='"+sem+"'>"+sem+"</li>");
   }
   jQuery("#cx-id-references ul.ref_sem li:contains(bamm)").css("color", "red");
@@ -217,20 +210,23 @@ function hilight_selected(selected) {
 
 function hilight_focused(selected) {
 
+
   d3.select("#my_dataviz").selectAll("g.ribbons path")
-      .classed("focused", false)
+    .classed("focused", false)
+    .classed("fade", true);
       
   d3.select("#my_dataviz").selectAll("g.ribbons path")
-      .filter( d => d.source.index == selected)
-      .classed("focused", true);
+    .filter( d => d.source.index == selected)
+    .classed("focused", true)
+    .classed("fade", false);
 }
 
 function dehilight() {
   d3.select("#my_dataviz").selectAll("g.ribbons path")
-      .classed("selected", false)
-      .classed("focused", false);
+    .classed("selected", false)
+    .classed("focused", false);
 
   d3.select("#my_dataviz").selectAll("g.groups text")
-      .classed("selected", false)
-      .classed("focused", false);
+    .classed("selected", false)
+    .classed("focused", false);
 }
