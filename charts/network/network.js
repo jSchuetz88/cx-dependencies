@@ -195,7 +195,7 @@ var svg = d3.select("#testssss")
 
 // Per-type markers, as they don't inherit styles.
 svg.append("defs").selectAll("marker")
-  .data(["main", "outgoing", "outgoing_l2", "outgoing_l3", "ingoing", "outgoing_deprecated"])
+  .data(["main", "outgoing", "outgoing_l2", "outgoing_l3", "ingoing_l2", "ingoing_l3", "ingoing", "outgoing_deprecated"])
 .enter().append("marker")
   .attr("id", function(d) { return d; })
   .attr("viewBox", "0 -5 10 10")
@@ -286,8 +286,9 @@ function dragged(event, d) {
 
 function dragended(event, d) {
   if (!event.active) simulation.alphaTarget(0);
-    d.fx = null;
-    d.fy = null;
-  }
+ 
+  // d.fx = null;
+  // d.fy = null;
+}
 
 }
