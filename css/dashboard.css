@@ -78,6 +78,9 @@ html, body{
 #menu944xy tabview tab{
 	float: left;
 	margin-right: 8px;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	text-align: center;
 }
 
 #menu944xy tabview tab a.main{
@@ -86,6 +89,7 @@ html, body{
 	padding: 42px 8px 16px;
 	height: 22px;
 	display: block;
+	width: 84px;
 }
 
 #menu944xy tabview tab a.main.icon1{
@@ -118,9 +122,6 @@ html, body{
     background: -ms-linear-gradient(270deg, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 100%); /* ie10+ */
     background: linear-gradient(180deg, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 100%); /* w3c */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EEEEEE', endColorstr='#FFFFFF',GradientType=0 ); /* ie6-9 */ 
-
-	border-left: 1px solid #CCC;
-	border-right: 1px solid #CCC;
 }
 
 #menu944xy tabview tab.selected a.main,

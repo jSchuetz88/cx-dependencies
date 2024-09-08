@@ -1,824 +1,947 @@
 {
     "CX-0001": {
         "title": "EDC Discovery API",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0001-EDCDiscoveryAPI"
     },
     "CX-0002": {
         "title": "Digital Twins In Catena-X",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0002-DigitalTwinsInCatenaX"
     },
     "CX-0003": {
         "title": "SAMM Semantic Aspect Meta Model",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0003-SAMMSemanticAspectMetaModel"
     },
     "CX-0004": {
         "title": "Governance Process",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0005": {
         "title": "Item Relationship Service Api",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0005-ItemRelationshipServiceAPI"
     },
     "CX-0006": {
         "title": "Registration And Initial Onboarding",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Onboarding",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0006-RegistrationAndInitialOnboarding"
     },
     "CX-0007": {
         "title": "Minimal Data Provider Services Offering",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0007-MinimalDataProviderServicesOffering"
     },
     "CX-0008": {
         "title": "Relevant Standards For Conformity Assessments",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0008-RelevantStandardsForConformityAssessments"
     },
     "CX-0009": {
         "title": "CX Registration API",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Onboarding",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0009-CXRegistrationAPI"
     },
     "CX-0010": {
         "title": "Business Partner Number",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0010-BusinessPartnerNumber"
     },
     "CX-0011": {
         "title": "Issuing Agency",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0011-IssuingAgency"
     },
     "CX-0012": {
         "title": "Business Partner DataPool API",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0012-BusinessPartnerDataPoolAPI"
     },
     "CX-0013": {
         "title": "Identity Of Member Companies",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0013-IdentityOfMemberCompanies"
     },
     "CX-0014": {
         "title": "Employees And Technical Users",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0014-EmployeesAndTechnicalUsers"
     },
     "CX-0015": {
         "title": "IAM & Access Control Paradigm for Users and Clients",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0015-IAMandAccessControlParadigmForUsersAndClients"
     },
     "CX-0016": {
         "title": "Company Attribute Verification",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0017": {
         "title": "Company Role By The Connector",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0018": {
         "title": "Dataspace Connectivity",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0018-DataspaceConnectivity"
     },
     "CX-0019": {
         "title": "Aspect Model Serial Part Typization",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0020": {
         "title": "Aspect Model Single Level BoM As Built",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0021": {
         "title": "Aspect Model Batch",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0022": {
         "title": "Notification Process",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0023": {
         "title": "Notification API",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
+        "url": ""
+    },
+    "CX-0024": {
+        "title": "Implementation Specification: Data Provisioning for Release 2",
+        "status": 0,
+        "type": "",
+        "category": "Undefined",
+        "url": ""
+    },
+    "CX-0025": {
+        "title": "Traceability App for Release 2",
+        "status": 0,
+        "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0026": {
         "title": "Product Carbon Footprint Data Model",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0027": {
         "title": "Product Carbon Footprint Aspect Model",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0027-ProductCarbonFootprintAspectModel"
     },
     "CX-0028": {
         "title": "Product Carbon Footprint Request API",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0029": {
         "title": "Product CarbonFootprintRulebook",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0029-ProductCarbonFootprintRulebook"
     },
     "CX-0030": {
         "title": "Data Model BoMAsSpecified",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0030-DataModelBoMAsSpecified"
     },
     "CX-0031": {
         "title": "Data Model MaterialForHomologation",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0031-DataModelMaterialForHomologation"
     },
     "CX-0032": {
         "title": "Data Model PartAsSpecified",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0032-DataModelPartAsSpecified"
     },
     "CX-0033": {
         "title": "Data Model ReturnRequest",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0034": {
         "title": "Data Model BatteryPass",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0035": {
         "title": "Data Model Marketplaceoffer",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0036": {
         "title": "Aspect Model QualityTask",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0037": {
         "title": "Aspect Model VehicleProductDescription",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0038": {
         "title": "Aspect Model FleetDiagnostic Data",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0039": {
         "title": "Aspect Model FleetClaimData",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0040": {
         "title": "Aspect Model PartAnalyses",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0041": {
         "title": "Aspect Model ManufacturedPartsQualityInformation",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0042": {
         "title": "Aspect Model SingleLevelBOMAsPlanned",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0043": {
         "title": "Aspect Model PartAsPlanned",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0044": {
         "title": "ECLASS",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0044-ECLASS"
     },
     "CX-0045": {
         "title": "Aspect Model DataChainTemplate",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0045-AspectModelDataChainTemplate"
     },
     "CX-0046": {
         "title": "Demand And Capacity Management Process And Core Business Logic",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0047": {
         "title": "Demand And Capacity Management Data Model MaterialDemandAndCapacityGroup",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0048": {
         "title": "Demand And Capacity Management API MaterialDemandAndCapacityGroup",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0049": {
         "title": "DID Document Schema",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0049-DIDDocumentSchema"
     },
     "CX-0050": {
         "title": "Framework Agreement Credential",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0050-FrameworkAgreementCredential"
     },
     "CX-0051": {
         "title": "Summary Credential",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0052": {
         "title": "Aspect Model ManufacturingCapability",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0053": {
         "title": "BPN Discovery Service APIs",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0053-BPNDiscoveryServiceAPIs"
     },
     "CX-0054": {
         "title": "Application Service Release",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0054-ApplicationServiceRelease"
     },
     "CX-0055": {
         "title": "Data Processing Patterns for IT System Integration",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0055-DataProcessingPatternsforITSystemIntegration"
     },
     "CX-0056": {
         "title": "Semantic Model ClassifiedLoadSpectrum",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0057": {
         "title": "Semantic Model RemainingUsefulLife",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0058": {
         "title": "API Endurance Predictor",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0059": {
         "title": "Use Case Behaviour Twin Endurance Predictor",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0059-UseCaseBehaviourTwinEndurancePredictor"
     },
     "CX-0060": {
         "title": "Triangle Traceability DigitalTwinAsBuilt",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0061": {
         "title": "Triangle Traceability Data Provisioning DigitalTwinAsPlanned",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0062": {
         "title": "Triangle Traceability Notifications",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0063": {
         "title": "Triangle For Product Carbon Footprint Request",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0065": {
         "title": "Triangle For Dismantling Service",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0065-TriangleForDismantlingService"
     },
     "CX-0066": {
         "title": "Aspect Model EndofLifeofVehicleCompliance",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0066-AspectModelEndofLifeofVehicleCompliance"
     },
     "CX-0067": {
         "title": "Ontology Models to realize federated query in Catena-X",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0067-OntologyModelsToRealizeFederatedQueryInCatenaX"
     },
     "CX-0068": {
         "title": "MP Shop Floor Information Service API",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0069": {
         "title": "Aspect Model MP Shop Floor Information Service",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0070": {
         "title": "Asset Tracking Platform API Standardization",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0071": {
         "title": "Triangle Quality Early Warning Field and Root Cause",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0071-TriangleQualityEarlyWarningFieldandRootCause"
     },
     "CX-0072": {
         "title": "OSim Process And Core Business Logic",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0073": {
         "title": "OSim API",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0074": {
         "title": "Business Partner Gate API",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0074-BusinessPartnerGateAPI"
     },
     "CX-0075": {
         "title": "MP Shop Floor Information Service Process and Core Business Logic",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0076": {
         "title": "Golden Record End-to-End Requirements Standard",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0076-GoldenRecordEndtoEndRequirementsStandard"
     },
     "CX-0077": {
         "title": "Data Quality Dashboard",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0077-DataQualityDashboard"
     },
     "CX-0078": {
         "title": "Bank Data Verification Dashboard",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0078-BankDataVerificationDashboard"
     },
     "CX-0079": {
         "title": "Natural Person Screening Dashboard",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0079-NaturalPersonScreeningDashboard"
     },
     "CX-0080": {
         "title": "BPDM Fraud Prevention Service",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0080-BPDMFraudPreventionService"
     },
     "CX-0081": {
         "title": "BPDM Country Risk",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0081-BPDMCountryRisk"
     },
     "CX-0083": {
         "title": "Aspect Model IoTSensorDeviceDefinition",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0084": {
         "title": "Federated Queries In Data Spaces",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0084-FederatedQueriesInDataSpaces"
     },
     "CX-0085": {
         "title": "PURIS AspectModel ProductStock",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0086": {
         "title": "PURIS Product Stock Exchange API",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0087": {
         "title": "OSim Data Model MaterialFlowSimulationResult",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0088": {
         "title": "Aspect Model UserEstimatedLoading",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0089": {
         "title": "Triangle Behavioral Twin Endurance Estimator Service",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0090": {
         "title": "API Endurance Estimator",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0091": {
         "title": "Aspect Model FleetVehicles",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0092": {
         "title": "Aspect Model QualityTaskAttachment",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0093": {
         "title": "Aspect Model TractionBatteryCode",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0094": {
         "title": "Aspect Model PartSiteInformationAsPlanned",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0094-AspectModelPartSiteInformationAsPlanned"
     },
     "CX-0095": {
         "title": "DataModel TransmissionPass",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0096": {
         "title": "Triangle For Digital Product Pass",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0098": {
         "title": "Aspect Model SecondaryMaterialContent",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0099": {
         "title": "Data Model CertificateofDecommissioning",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0100": {
         "title": "Triangle For Secondary Marketplace",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0102": {
         "title": "Functional MockUp",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0102-Functional-Mock-Up"
     },
     "CX-0103": {
         "title": "Aspect Model DigitalProductPassport",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0104": {
         "title": "Aspect Model AssetTrackerLinks",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0105": {
         "title": "Asset Tracking Triangle Document",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0105-AssetTrackingUseCase"
     },
     "CX-0106": {
         "title": "Aspect Model IoTSensorData",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0107": {
         "title": "Aspect Model ReuseCertificate",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0108": {
         "title": "Aspect Model Waste Certificate",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0109": {
         "title": "Aspect Model RefrubishingCertificate",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0111": {
         "title": "Aspect Model RemanufacturingCertificate",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0112": {
         "title": "Aspect Model MaterialRecyclingCertificate",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0113": {
         "title": "Aspect Model ESSDatamodel",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0115": {
         "title": "Manufacturing Capability Exchange",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0115-ManufacturingCapabilityExchange"
     },
     "CX-0116": {
         "title": "Sanction Part Watchlist Dashboard",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0116-SanctionWatchlistDashboard"
     },
     "CX-0117": {
         "title": "Use Case Circular Economy Secondary Marketplace",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0117-UseCaseCircularEconomySecondaryMarketplace"
     },
     "CX-0118": {
         "title": "Delivery Information Exchange",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0118-ActualDeliveryInformationExchange"
     },
     "CX-0120": {
         "title": "Short Term Material Demand Exchange",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0120-ShortTermMaterialDemandExchange"
     },
     "CX-0121": {
         "title": "Planned Production Output Exchange",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0121-PlannedProductionOutputExchange"
     },
     "CX-0122": {
         "title": "Item Stock Exchange",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0122-ItemStockExchange"
     },
     "CX-0123": {
         "title": "Quality Use Case Standard",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0123-QualityUseCaseStandard"
     },
     "CX-0125": {
         "title": "Traceability Use Case",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0125-TraceabilityUseCase"
     },
     "CX-0126": {
         "title": "Industry Core PartType",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0126-IndustryCorePartType"
     },
     "CX-0127": {
         "title": "Industry Core PartInstance",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0127-IndustryCorePartInstance"
     },
     "CX-0128": {
         "title": "Demand and Capacity Management Data Exchange",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0128-DemandandCapacityManagementDataExchange"
     },
     "CX-0129": {
         "title": "Request for Quotation Exchange",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0129-RequestforQuotationExchange"
     },
     "CX-0131": {
         "title": "Circularity Core",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0131-CircularityCore"
     },
     "CX-0133": {
         "title": "Online Control and Simulation",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0133-OnlineControlandSimulation"
     },
     "CX-0134": {
         "title": "Product Carbon Footprint Calculation Integration",
-        "status": "",
+        "status": 0,
         "type": "",
+        "category": "Undefined",
         "url": ""
     },
     "CX-0135": {
         "title": "Company Certificate Management",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0135-CompanyCertificateManagement"
     },
     "CX-0136": {
         "title": "Use Case PCF",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0136-UseCasePCF"
     },
     "CX-0138": {
         "title": "Use Case Behaviour Twin Endurance Estimator",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0138-UseCaseBehaviourTwinEnduranceEstimator"
     },
     "CX-0139": {
         "title": "Information as a Service - External Data Provider",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0139-InformationasaServiceExternalDataProvider"
     },
     "CX-0141": {
         "title": "Health Indicator UseCase",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0141-HealthIndicatorUseCase"
     },
     "CX-0142": {
         "title": "Shop Floor Information Service",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0142-ShopFloorInformationService"
     },
     "CX-0143": {
         "title": "Use Case Circular Economy Digital Product Passport Standard",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0143-UseCaseCircularEconomyDigitalProductPassportStandard"
     },
     "CX-0144": {
         "title": "ESS Use Case Standard",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0144-ESSUseCaseStandard"
     },
     "CX-0145": {
         "title": "Days of Supply Exchange",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0145-DaysofsupplyExchange"
     },
     "CX-0146": {
         "title": "Supply Chain Disruption Notifications",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0146-SupplyChainDisruptionNotifications"
     },
     "CX-0149": {
         "title": "Data Space Identity and Identification",
-        "status": "",
+        "status": 1,
         "type": "",
+        "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0149-Dataspaceidentityandidentification"
-    },
-    "CX-01": {
-        "title": "",
-        "status": "",
-        "type": "",
-        "url": ""
-    },
-    "CX-01": {
-        "title": "",
-        "status": "",
-        "type": "",
-        "url": ""
-    },
-    "CX-01": {
-        "title": "",
-        "status": "",
-        "type": "",
-        "url": ""
-    },
-    "CX-01": {
-        "title": "",
-        "status": "",
-        "type": "",
-        "url": ""
     }
 }
