@@ -1,28 +1,86 @@
 var current_cxId = null;
+var listOfOpendOutgoingCXElements = Array();
+var listOfOpendIngoingCXElements = Array();
+
+function add_ListOfOpendOutgoingCXElements(cxId){
+  listOfOpendOutgoingCXElements[cxId] = 1;
+
+  test(current_cxId);
+}
+
+function remove_ListOfOpendOutgoingCXElements(cxId){
+  unset(listOfOpendOutgoingCXElements[cxId]);
+
+  test(current_cxId);
+}
+
+function add_ListOfOpendIngoingCXElements(cxId){
+  listOfOpendIngoingCXElements[cxId] = 1;
+
+  test(current_cxId);
+}
+
+function remove_ListOfOpendIngoingCXElements(cxId){
+  unset(listOfOpendIngoingCXElements[cxId]);
+
+  test(current_cxId);
+}
+
+function clear_allLists(){
+  listOfOpendOutgoingCXElements = Array();
+  listOfOpendIngoingCXElements = Array();
+
+  test(current_cxId);
+}
+
+function openCXSelector(event, cxId){
+  jQuery('#contextMenu ul').html('');
+  jQuery('#contextMenu ul').append(
+    '<li class="title">'+cxId+'</li>'+
+    '<li onClick="javascript:add_ListOfOpendOutgoingCXElements(\''+cxId+'\');" class="list">Show outgoing dependencies</li>'+
+    '<li onClick="javascript:add_ListOfOpendIngoingCXElements(\''+cxId+'\');" class="list">Show ingoing dependencies</li>'+
+  '');
+
+  jQuery('#contextMenu').css({
+      display: 'block',
+      left: event.pageX,
+      top: event.pageY
+  });
+}
+
+jQuery(document).on('click', function() {
+  jQuery('#contextMenu').hide();
+});
 
 var controls_network = {
   setting_l2de : false,
-  setting_ingoing : false,
-  setting_outgoing : true,
+  setting_ingoing : true,
+  setting_outgoing : false,
 
   toggle_l2dep : function(element){
     this.setting_l2de = !this.setting_l2de;
 
-    jQuery(element).toggleClass('active');
+    jQuery('.dep_settings.l2').toggleClass('active');
     if(current_cxId) test(current_cxId);
   },
 
   toggle_ingoing : function(element){
     this.setting_ingoing = !this.setting_ingoing;
+    this.setting_outgoing = !this.setting_ingoing;
 
-    jQuery(element).toggleClass('active');
+    jQuery('.dep_settings.ingoing').toggleClass('active');
+    jQuery('.dep_settings.outgoing').toggleClass('active');
+
     if(current_cxId) test(current_cxId);
   },
 
   toggle_outgoing : function(element){
     this.setting_outgoing = !this.setting_outgoing;
+    this.setting_ingoing = !this.setting_outgoing;
 
-    jQuery(element).toggleClass('active');
+    jQuery('.dep_settings.ingoing').toggleClass('active');
+    jQuery('.dep_settings.outgoing').toggleClass('active');
+
     if(current_cxId) test(current_cxId);
   }
 };
@@ -62,13 +120,38 @@ function test(selectedId){
       if(CX.getStandard(cxId).getDependencies().getStandards().includes(selectedId)){
         links[j] = {"source": cxId, "target": selectedId, "value": 2, "type" : "ingoing", sNode: "ingoing", tNode: "main"};
 
+        // Load second level references only, if selected
+        if(controls_network.setting_l2de){
+          for (var cxIdl2 of Object.keys(CX.getAllStandards('onlyValid'))){
+            if(CX.getStandard(cxIdl2).getDependencies().getStandards().includes(cxId)){
+              j++;
+              links[j] = {"source": cxIdl2, "target": cxId, "value": 2, "type" : "ingoing_l2", sNode: "ingoing_l3", tNode: "ingoing_l2"};
+            }
+          }
+        }
+
         j++;
       }
-/*
-      if(!CX.getStandard(dependencyId).isDeprecated()){
+    }
+  }
+
+  // load individual elements -> outgoing
+  for (var xxxId of Object.keys(listOfOpendOutgoingCXElements)){
+    for (var dependencyId of CX.getStandard(xxxId).getDependencies().getStandards()){
+      links[j] = {"source": xxxId, "target": dependencyId, "value": 2, "type" : "outgoing_l2", sNode: "outgoing_l2", tNode: "outgoing_l3"};
+      j++;
+    }
+  }
+
+  // load individual elements -> ingoing
+  for (var xxxId of Object.keys(listOfOpendIngoingCXElements)){
+
+    for (var cxId of Object.keys(CX.getAllStandards('onlyValid'))){
+      if(CX.getStandard(cxId).getDependencies().getStandards().includes(xxxId)){
+        links[j] = {"source": cxId, "target": xxxId, "value": 2, "type" : "ingoing", sNode: "ingoing", tNode: "ingoing_l2"};
+
         j++;
       }
-        */
     }
   }
 
@@ -95,6 +178,16 @@ var simulation = d3.forceSimulation(Object.values(nodes))
   .force("charge", d3.forceManyBody().strength(-240))
   .force("center", d3.forceCenter(width / 2, height / 2))
   .on("tick", tick);
+
+  /*
+    simulation.stop();
+    for (var i = 0; i < 300; ++i) {
+      simulation.tick();
+    }
+    
+    // Aktualisiere die Positionen der Knoten
+    tick();
+  */
 
 var svg = d3.select("#testssss")
   .attr("width", width)
@@ -133,6 +226,13 @@ var circle = svg.append("g").selectAll("circle")
     .on("start", dragstarted)
     .on("drag", dragged)
     .on("end", dragended));
+    /*
+    .on("contextmenu",  function(event, d) {
+      event.preventDefault(); 
+      openCXSelector(event, d.name);
+    });
+  */
+    
 
 var text = svg.append("g").selectAll("text")
   .data(Object.values(nodes))
@@ -189,4 +289,5 @@ function dragended(event, d) {
     d.fx = null;
     d.fy = null;
   }
+
 }

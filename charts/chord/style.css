@@ -58,16 +58,12 @@ path.link {
   opacity: 1;
 }
 
-path.link.licensing {
-	stroke-dasharray: 0,2 1;
-	stroke: #CCCCCC;
-}
-
 path.link.outgoing {
   stroke: #FFA600;
 }
 
-path.link.ingoing {
+path.link.ingoing,
+path.link.ingoing_l2 {
   stroke: #ADB71A;
 }
 
@@ -75,7 +71,8 @@ path.link.outgoing_deprecated {
   stroke: #AA0000;
 }
 
-path.link.outgoing_l2{
+path.link.outgoing_l2,
+path.link.ingoing_l2{
   stroke-dasharray: 0,2 1;
 }
 
@@ -100,8 +97,14 @@ circle.outgoing_l3 {
   stroke-dasharray: 0,2 1;
 }
 
-circle.ingoing {
+circle.ingoing,
+circle.ingoing_l2,
+circle.ingoing_l3{
   stroke: #ADB71A;
+}
+
+circle.ingoing_l3{
+  stroke-dasharray: 0,2 1;
 }
 
 circle.outgoing_deprecated {
@@ -168,4 +171,38 @@ text.main{
 
 .dep_settings.active .state::before{
   content: "✓";
+}
+
+/* Context Menu */
+
+#contextMenu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  z-index: 1000;
+}
+#contextMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#contextMenu ul li.list {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 12px;
+}
+#contextMenu ul li.list:hover {
+  background-color: #eee;
+}
+
+#contextMenu ul li.title {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #FFA600;
+  color: #FFF;
+  padding: 8px;
+  cursor: initial;
 }

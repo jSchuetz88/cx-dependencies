@@ -30,13 +30,13 @@
 			<a class="main gh" href="https://github.com/jSchuetz88/cx-dependencies"></a>
 		</tab>
 		<tab class="selected">
-			<a class="main icon1" href="./">Standards</a>
+			<a class="main icon1" href="/">Standards</a>
 		</tab>
 		<tab>
-			<a class="main icon1" href="./semantics.html">Semantics</a>
+			<a class="main icon1" href="/semantics.html">Semantics</a>
 		</tab>
 		<tab>
-			<a class="main icon1" href="./kits.html">KITs</a>
+			<a class="main icon1" href="/kits.html">KITs</a>
 		</tab>
 	</tabview>
 	<img class="logo" src="./images/logo.svg" />
@@ -50,15 +50,15 @@
 		<div class="item c1" style="margin: 4px 4px 4px 0; grid-column-start: 5; grid-column-end: 8; grid-row-start: 1; grid-row-end: 6;">
 			<h1 id="cx-id-view">&nbsp;</h1><hr />
 			<div class="dep_controls">
-				<div class="dep_settings" onClick="controls_network.toggle_l2dep(this);">
+				<div class="dep_settings l2" onClick="controls_network.toggle_l2dep();">
 					<div class="state"></div> 
-					<div class="descr">Show 2. level references</div>
+					<div class="descr">Show all 2. level references</div>
 				</div>
-				<div class="dep_settings" onClick="controls_network.toggle_ingoing(this);">
+				<div class="dep_settings ingoing active" onClick="controls_network.toggle_ingoing();">
 					<div class="state"></div>
 					<div class="descr">Show ingoing references</div>
 				</div>
-				<div class="dep_settings active" onClick="controls_network.toggle_outgoing(this);">
+				<div class="dep_settings outgoing" onClick="controls_network.toggle_outgoing();">
 					<div class="state"></div>
 					<div class="descr">Show outgoing references</div>
 				</div>
