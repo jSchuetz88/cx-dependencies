@@ -94,14 +94,14 @@ function test(selectedId){
 
   // Load outgoing references, if selected
   if(controls_network.setting_outgoing){
-    for (var dependencyId of CX.getStandard(selectedId).getDependencies().getStandards()){
+    for (var dependencyId of CX.getStandard(selectedId).getDependencies().getReferences('normative')){
       // Consider reference only if not deprecated
       if(!CX.getStandard(dependencyId).isDeprecated()){
         links[j] = {"source": selectedId, "target": dependencyId, "value": 1, "type" : "outgoing", sNode: "main", tNode: "outgoing"};
 
         // Load second level references only, if selected
         if(controls_network.setting_l2de){
-          for (var dependencyIdL2 of CX.getStandard(dependencyId).getDependencies().getStandards()){
+          for (var dependencyIdL2 of CX.getStandard(dependencyId).getDependencies().getReferences('normative')){
             j++;
             links[j] = {"source": dependencyId, "target": dependencyIdL2, "value": 2, "type" : "outgoing_l2", sNode: "outgoing_l2", tNode: "outgoing_l3"};
           }
@@ -117,13 +117,13 @@ function test(selectedId){
   // Load ingoing dependencies, if selected
   if(controls_network.setting_ingoing){
     for (var cxId of Object.keys(CX.getAllStandards('onlyValid'))){
-      if(CX.getStandard(cxId).getDependencies().getStandards().includes(selectedId)){
+      if(CX.getStandard(cxId).getDependencies().getReferences('normative').includes(selectedId)){
         links[j] = {"source": cxId, "target": selectedId, "value": 2, "type" : "ingoing", sNode: "ingoing", tNode: "main"};
 
         // Load second level references only, if selected
         if(controls_network.setting_l2de){
           for (var cxIdl2 of Object.keys(CX.getAllStandards('onlyValid'))){
-            if(CX.getStandard(cxIdl2).getDependencies().getStandards().includes(cxId)){
+            if(CX.getStandard(cxIdl2).getDependencies().getReferences('normative').includes(cxId)){
               j++;
               links[j] = {"source": cxIdl2, "target": cxId, "value": 2, "type" : "ingoing_l2", sNode: "ingoing_l3", tNode: "ingoing_l2"};
             }
@@ -137,7 +137,7 @@ function test(selectedId){
 
   // load individual elements -> outgoing
   for (var xxxId of Object.keys(listOfOpendOutgoingCXElements)){
-    for (var dependencyId of CX.getStandard(xxxId).getDependencies().getStandards()){
+    for (var dependencyId of CX.getStandard(xxxId).getDependencies().getReferences('normative')){
       links[j] = {"source": xxxId, "target": dependencyId, "value": 2, "type" : "outgoing_l2", sNode: "outgoing_l2", tNode: "outgoing_l3"};
       j++;
     }
@@ -147,7 +147,7 @@ function test(selectedId){
   for (var xxxId of Object.keys(listOfOpendIngoingCXElements)){
 
     for (var cxId of Object.keys(CX.getAllStandards('onlyValid'))){
-      if(CX.getStandard(cxId).getDependencies().getStandards().includes(xxxId)){
+      if(CX.getStandard(cxId).getDependencies().getReferences('normative').includes(xxxId)){
         links[j] = {"source": cxId, "target": xxxId, "value": 2, "type" : "ingoing", sNode: "ingoing", tNode: "ingoing_l2"};
 
         j++;

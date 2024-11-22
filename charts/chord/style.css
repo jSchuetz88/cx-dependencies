@@ -124,7 +124,8 @@ marker#outgoing_deprecated path{
   opacity: 1;
 }
 
-marker#ingoing path{
+marker#ingoing path,
+marker#ingoing_l2 path{
   fill: #ADB71A;
   stroke: #ADB71A;
   opacity: 1;

@@ -95,11 +95,21 @@ function Dependencies(){
 		this._dependencies = dependencies;
 	};
 
-	this.getStandards = function(){
-		return this._dependencies[0];
+	this.getReferences = function($type){
+		return this._dependencies[$type];
 	};
 
+	/*
 	this.getSemantics = function(){
-		return this._dependencies[1];
+		return this._dependencies['aspect-models'];
 	};
+
+	this.getNormativeReferences = function(){
+		return this._dependencies['normative'];
+	};
+
+	this.getNonNormativeReferences = function(){
+		return this._dependencies['non-normative'];
+	};
+	*/
 }
