@@ -1,79 +1,79 @@
 {
     "CX-0001": {
-        "normative": {
-            "1": "CX-0010"
-        },
+        "normative": [
+            "CX-0010"
+        ],
         "non-normative": [],
         "aspect-models": []
     },
     "CX-0002": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0003",
-            "2": "CX-0044",
-            "3": "CX-0018",
-            "4": "CX-0001",
-            "5": "CX-0053"
-        },
+        "non-normative": [
+            "CX-0003",
+            "CX-0044",
+            "CX-0018",
+            "CX-0001",
+            "CX-0053"
+        ],
         "aspect-models": [
             "urn:bamm:io.catenax.material_for_recycling:1.1.0"
         ]
     },
     "CX-0003": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0018"
-        },
+        "non-normative": [
+            "CX-0018"
+        ],
         "aspect-models": [
             "urn:samm:io.catenax.material_for_recycling:1.0.0"
         ]
     },
     "CX-0005": {
-        "normative": {
-            "1": "CX-0018",
-            "2": "CX-0024",
-            "3": "CX-0061",
-            "4": "CX-0125"
-        },
-        "non-normative": {
-            "1": "CX-0001",
-            "2": "CX-0003",
-            "3": "CX-0010",
-            "4": "CX-0030",
-            "5": "CX-0032",
-            "6": "CX-0094",
-            "7": "CX-0127",
-            "8": "CX-0126"
-        },
+        "normative": [
+            "CX-0018",
+            "CX-0024",
+            "CX-0061",
+            "CX-0125"
+        ],
+        "non-normative": [
+            "CX-0001",
+            "CX-0003",
+            "CX-0010",
+            "CX-0030",
+            "CX-0032",
+            "CX-0094",
+            "CX-0127",
+            "CX-0126"
+        ],
         "aspect-models": []
     },
     "CX-0006": {
-        "normative": {
-            "1": "CX-0010",
-            "2": "CX-0011",
-            "3": "CX-0013"
-        },
-        "non-normative": {
-            "1": "CX-0008"
-        },
+        "normative": [
+            "CX-0010",
+            "CX-0011",
+            "CX-0013"
+        ],
+        "non-normative": [
+            "CX-0008"
+        ],
         "aspect-models": []
     },
     "CX-0007": {
-        "normative": {
-            "1": "CX-0016",
-            "2": "CX-0017",
-            "3": "CX-0018"
-        },
-        "non-normative": {
-            "1": "CX-0055",
-            "2": "CX-0002",
-            "3": "CX-0019",
-            "4": "CX-0020",
-            "5": "CX-0021",
-            "6": "CX-0022",
-            "7": "CX-0010",
-            "8": "CX-0012"
-        },
+        "normative": [
+            "CX-0016",
+            "CX-0017",
+            "CX-0018"
+        ],
+        "non-normative": [
+            "CX-0055",
+            "CX-0002",
+            "CX-0019",
+            "CX-0020",
+            "CX-0021",
+            "CX-0022",
+            "CX-0010",
+            "CX-0012"
+        ],
         "aspect-models": []
     },
     "CX-0008": {
@@ -83,9 +83,9 @@
     },
     "CX-0009": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0006"
-        },
+        "non-normative": [
+            "CX-0006"
+        ],
         "aspect-models": []
     },
     "CX-0010": {
@@ -100,18 +100,18 @@
     },
     "CX-0012": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0018",
-            "2": "CX-0010",
-            "3": "CX-0074",
-            "4": "CX-0076"
-        },
+        "non-normative": [
+            "CX-0018",
+            "CX-0010",
+            "CX-0074",
+            "CX-0076"
+        ],
         "aspect-models": []
     },
     "CX-0013": {
-        "normative": {
-            "1": "CX-0149"
-        },
+        "normative": [
+            "CX-0149"
+        ],
         "non-normative": [],
         "aspect-models": []
     },
@@ -126,41 +126,41 @@
         "aspect-models": []
     },
     "CX-0018": {
-        "normative": {
-            "1": "CX-0149"
-        },
-        "non-normative": {
-            "1": "CX-0010"
-        },
+        "normative": [
+            "CX-0149"
+        ],
+        "non-normative": [
+            "CX-0010"
+        ],
         "aspect-models": []
     },
     "CX-0030": {
-        "normative": {
-            "1": "CX-0002",
-            "2": "CX-0018"
-        },
-        "non-normative": {
-            "1": "CX-0032"
-        },
+        "normative": [
+            "CX-0002",
+            "CX-0018"
+        ],
+        "non-normative": [
+            "CX-0032"
+        ],
         "aspect-models": [
             "urn:samm:io.catenax.single_level_bom_as_specified:2.0.0"
         ]
     },
     "CX-0031": {
-        "normative": {
-            "1": "CX-0003",
-            "2": "CX-0004",
-            "3": "CX-0018",
-            "4": "CX-0001"
-        },
+        "normative": [
+            "CX-0003",
+            "CX-0004",
+            "CX-0018",
+            "CX-0001"
+        ],
         "non-normative": [],
         "aspect-models": []
     },
     "CX-0032": {
-        "normative": {
-            "1": "CX-0002",
-            "2": "CX-0018"
-        },
+        "normative": [
+            "CX-0002",
+            "CX-0018"
+        ],
         "non-normative": [],
         "aspect-models": [
             "urn:bamm:io.catenax.bom_as_specified:2.0.0"
@@ -168,28 +168,28 @@
     },
     "CX-0044": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0003"
-        },
+        "non-normative": [
+            "CX-0003"
+        ],
         "aspect-models": []
     },
     "CX-0045": {
-        "normative": {
-            "1": "CX-0003",
-            "2": "CX-0010"
-        },
-        "non-normative": {
-            "1": "CX-0001",
-            "2": "CX-0126",
-            "3": "CX-0127"
-        },
+        "normative": [
+            "CX-0003",
+            "CX-0010"
+        ],
+        "non-normative": [
+            "CX-0001",
+            "CX-0126",
+            "CX-0127"
+        ],
         "aspect-models": []
     },
     "CX-0049": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0013"
-        },
+        "non-normative": [
+            "CX-0013"
+        ],
         "aspect-models": []
     },
     "CX-0050": {
@@ -199,53 +199,53 @@
     },
     "CX-0053": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0001",
-            "2": "CX-0018",
-            "3": "CX-0002",
-            "4": "CX-0012"
-        },
+        "non-normative": [
+            "CX-0001",
+            "CX-0018",
+            "CX-0002",
+            "CX-0012"
+        ],
         "aspect-models": []
     },
     "CX-0054": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0006",
-            "2": "CX-0009",
-            "3": "CX-0010",
-            "4": "CX-0011",
-            "5": "CX-0013"
-        },
+        "non-normative": [
+            "CX-0006",
+            "CX-0009",
+            "CX-0010",
+            "CX-0011",
+            "CX-0013"
+        ],
         "aspect-models": []
     },
     "CX-0055": {
-        "normative": {
-            "1": "CX-0002",
-            "2": "CX-0003",
-            "3": "CX-0012",
-            "4": "CX-0018",
-            "5": "CX-0050",
-            "6": "CX-0053",
-            "7": "CX-0067",
-            "8": "CX-0084"
-        },
+        "normative": [
+            "CX-0002",
+            "CX-0003",
+            "CX-0012",
+            "CX-0018",
+            "CX-0050",
+            "CX-0053",
+            "CX-0067",
+            "CX-0084"
+        ],
         "non-normative": [],
         "aspect-models": []
     },
     "CX-0059": {
-        "normative": {
-            "1": "CX-0023",
-            "2": "CX-0067",
-            "3": "CX-0084"
-        },
-        "non-normative": {
-            "1": "CX-0056",
-            "2": "CX-0057",
-            "3": "CX-0058",
-            "4": "CX-0138",
-            "5": "CX-0002",
-            "6": "CX-0003"
-        },
+        "normative": [
+            "CX-0023",
+            "CX-0067",
+            "CX-0084"
+        ],
+        "non-normative": [
+            "CX-0056",
+            "CX-0057",
+            "CX-0058",
+            "CX-0138",
+            "CX-0002",
+            "CX-0003"
+        ],
         "aspect-models": [
             "urn:bamm:io.catenax.classified_load_spectrum:1.0.0",
             "urn:bamm:io.catenax.rul:1.0.0"
@@ -258,84 +258,84 @@
     },
     "CX-0074": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0018",
-            "2": "CX-0010",
-            "3": "CX-0012",
-            "4": "CX-0076"
-        },
+        "non-normative": [
+            "CX-0018",
+            "CX-0010",
+            "CX-0012",
+            "CX-0076"
+        ],
         "aspect-models": []
     },
     "CX-0076": {
-        "normative": {
-            "1": "CX-0012",
-            "2": "CX-0074"
-        },
+        "normative": [
+            "CX-0012",
+            "CX-0074"
+        ],
         "non-normative": [],
         "aspect-models": []
     },
     "CX-0077": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0076",
-            "2": "CX-0074",
-            "3": "CX-0012",
-            "4": "CX-0018",
-            "5": "CX-0010"
-        },
+        "non-normative": [
+            "CX-0076",
+            "CX-0074",
+            "CX-0012",
+            "CX-0018",
+            "CX-0010"
+        ],
         "aspect-models": []
     },
     "CX-0078": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0074",
-            "2": "CX-0012",
-            "3": "CX-0018",
-            "4": "CX-0010"
-        },
+        "non-normative": [
+            "CX-0074",
+            "CX-0012",
+            "CX-0018",
+            "CX-0010"
+        ],
         "aspect-models": []
     },
     "CX-0079": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0074",
-            "2": "CX-0012",
-            "3": "CX-0010"
-        },
+        "non-normative": [
+            "CX-0074",
+            "CX-0012",
+            "CX-0010"
+        ],
         "aspect-models": []
     },
     "CX-0080": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0074",
-            "2": "CX-0012",
-            "3": "CX-0018"
-        },
+        "non-normative": [
+            "CX-0074",
+            "CX-0012",
+            "CX-0018"
+        ],
         "aspect-models": []
     },
     "CX-0081": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0074",
-            "2": "CX-0018"
-        },
+        "non-normative": [
+            "CX-0074",
+            "CX-0018"
+        ],
         "aspect-models": []
     },
     "CX-0084": {
-        "normative": {
-            "1": "CX-0067"
-        },
-        "non-normative": {
-            "1": "CX-0059"
-        },
+        "normative": [
+            "CX-0067"
+        ],
+        "non-normative": [
+            "CX-0059"
+        ],
         "aspect-models": []
     },
     "CX-0094": {
-        "normative": {
-            "1": "CX-0003",
-            "2": "CX-0004",
-            "3": "CX-0018"
-        },
+        "normative": [
+            "CX-0003",
+            "CX-0004",
+            "CX-0018"
+        ],
         "non-normative": [],
         "aspect-models": [
             "urn:bamm:io.catenax.part_site_information_as_planned:1.0.0"
@@ -347,17 +347,17 @@
         "aspect-models": []
     },
     "CX-0105": {
-        "normative": {
-            "1": "CX-0018",
-            "2": "CX-0045",
-            "3": "CX-0083",
-            "4": "CX-0106",
-            "5": "CX-0104",
-            "6": "CX-0070"
-        },
-        "non-normative": {
-            "1": "CX-0003"
-        },
+        "normative": [
+            "CX-0018",
+            "CX-0045",
+            "CX-0083",
+            "CX-0106",
+            "CX-0104",
+            "CX-0070"
+        ],
+        "non-normative": [
+            "CX-0003"
+        ],
         "aspect-models": [
             "urn:samm:io.catenax.iot_sensor_device_definition:2.0.0",
             "urn:samm:io.catenax.iot_sensor_data:2.0.0",
@@ -365,49 +365,49 @@
         ]
     },
     "CX-0115": {
-        "normative": {
-            "1": "CX-0002",
-            "2": "CX-0003",
-            "3": "CX-0006",
-            "4": "CX-0010",
-            "5": "CX-0018"
-        },
-        "non-normative": {
-            "1": "CX-0052"
-        },
+        "normative": [
+            "CX-0002",
+            "CX-0003",
+            "CX-0006",
+            "CX-0010",
+            "CX-0018"
+        ],
+        "non-normative": [
+            "CX-0052"
+        ],
         "aspect-models": [
             "urn:samm:io.catenax.manufacturing_capability:3.1.0"
         ]
     },
     "CX-0116": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0074",
-            "2": "CX-0012",
-            "3": "CX-0018",
-            "4": "CX-0010"
-        },
+        "non-normative": [
+            "CX-0074",
+            "CX-0012",
+            "CX-0018",
+            "CX-0010"
+        ],
         "aspect-models": []
     },
     "CX-0117": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0100",
-            "2": "CX-0033",
-            "3": "CX-0034",
-            "4": "CX-0035",
-            "5": "CX-0001",
-            "6": "CX-0002",
-            "7": "CX-0003",
-            "8": "CX-0006",
-            "9": "CX-0013",
-            "10": "CX-0014",
-            "11": "CX-0015",
-            "12": "CX-0018",
-            "13": "CX-0049",
-            "14": "CX-0050",
-            "15": "CX-0143"
-        },
+        "non-normative": [
+            "CX-0100",
+            "CX-0033",
+            "CX-0034",
+            "CX-0035",
+            "CX-0001",
+            "CX-0002",
+            "CX-0003",
+            "CX-0006",
+            "CX-0013",
+            "CX-0014",
+            "CX-0015",
+            "CX-0018",
+            "CX-0049",
+            "CX-0050",
+            "CX-0143"
+        ],
         "aspect-models": [
             "urn:samm:io.catenax.market_place_offer:2.0.0",
             "urn:samm:io.catenax.battery.battery_pass:5.0.0",
@@ -415,62 +415,62 @@
         ]
     },
     "CX-0118": {
-        "normative": {
-            "1": "CX-0002",
-            "2": "CX-0003",
-            "3": "CX-0006",
-            "4": "CX-0010",
-            "5": "CX-0018",
-            "6": "CX-0053",
-            "7": "CX-0120",
-            "8": "CX-0121",
-            "9": "CX-0122",
-            "10": "CX-0126",
-            "11": "CX-0145",
-            "12": "CX-0146"
-        },
+        "normative": [
+            "CX-0002",
+            "CX-0003",
+            "CX-0006",
+            "CX-0010",
+            "CX-0018",
+            "CX-0053",
+            "CX-0120",
+            "CX-0121",
+            "CX-0122",
+            "CX-0126",
+            "CX-0145",
+            "CX-0146"
+        ],
         "non-normative": [],
         "aspect-models": [
             "urn:samm:io.catenax.delivery_information:2.0.0"
         ]
     },
     "CX-0120": {
-        "normative": {
-            "1": "CX-0002",
-            "2": "CX-0003",
-            "3": "CX-0006",
-            "4": "CX-0010",
-            "5": "CX-0018",
-            "6": "CX-0053",
-            "7": "CX-0118",
-            "8": "CX-0121",
-            "9": "CX-0122",
-            "10": "CX-0126",
-            "11": "CX-0128",
-            "12": "CX-0145",
-            "13": "CX-0146"
-        },
+        "normative": [
+            "CX-0002",
+            "CX-0003",
+            "CX-0006",
+            "CX-0010",
+            "CX-0018",
+            "CX-0053",
+            "CX-0118",
+            "CX-0121",
+            "CX-0122",
+            "CX-0126",
+            "CX-0128",
+            "CX-0145",
+            "CX-0146"
+        ],
         "non-normative": [],
         "aspect-models": [
             "urn:samm:io.catenax.short_term_material_demand:1.0.0"
         ]
     },
     "CX-0121": {
-        "normative": {
-            "1": "CX-0002",
-            "2": "CX-0003",
-            "3": "CX-0006",
-            "4": "CX-0010",
-            "5": "CX-0018",
-            "6": "CX-0053",
-            "7": "CX-0118",
-            "8": "CX-0120",
-            "9": "CX-0122",
-            "10": "CX-0126",
-            "11": "CX-0128",
-            "12": "CX-0145",
-            "13": "CX-0146"
-        },
+        "normative": [
+            "CX-0002",
+            "CX-0003",
+            "CX-0006",
+            "CX-0010",
+            "CX-0018",
+            "CX-0053",
+            "CX-0118",
+            "CX-0120",
+            "CX-0122",
+            "CX-0126",
+            "CX-0128",
+            "CX-0145",
+            "CX-0146"
+        ],
         "non-normative": [],
         "aspect-models": [
             "urn:samm:io.catenax.planned_production_output:2.0.0",
@@ -478,32 +478,32 @@
         ]
     },
     "CX-0122": {
-        "normative": {
-            "1": "CX-0002",
-            "2": "CX-0003",
-            "3": "CX-0006",
-            "4": "CX-0010",
-            "5": "CX-0018",
-            "6": "CX-0053",
-            "7": "CX-0118",
-            "8": "CX-0120",
-            "9": "CX-0121",
-            "10": "CX-0126",
-            "11": "CX-0128",
-            "12": "CX-0145",
-            "13": "CX-0146"
-        },
+        "normative": [
+            "CX-0002",
+            "CX-0003",
+            "CX-0006",
+            "CX-0010",
+            "CX-0018",
+            "CX-0053",
+            "CX-0118",
+            "CX-0120",
+            "CX-0121",
+            "CX-0126",
+            "CX-0128",
+            "CX-0145",
+            "CX-0146"
+        ],
         "non-normative": [],
         "aspect-models": [
             "urn:samm:io.catenax.item_stock:2.0.0"
         ]
     },
     "CX-0123": {
-        "normative": {
-            "1": "CX-0003",
-            "2": "CX-0018",
-            "3": "CX-0125"
-        },
+        "normative": [
+            "CX-0003",
+            "CX-0018",
+            "CX-0125"
+        ],
         "non-normative": [],
         "aspect-models": [
             "urn:samm:io.catenax.quality_task:2.0.0",
@@ -518,25 +518,25 @@
         ]
     },
     "CX-0125": {
-        "normative": {
-            "1": "CX-0002",
-            "2": "CX-0003",
-            "3": "CX-0018",
-            "4": "CX-0127"
-        },
+        "normative": [
+            "CX-0002",
+            "CX-0003",
+            "CX-0018",
+            "CX-0127"
+        ],
         "non-normative": [],
         "aspect-models": [
             "urn:samm:io.catenax.traction_battery_code:2.0.0"
         ]
     },
     "CX-0126": {
-        "normative": {
-            "1": "CX-0002",
-            "2": "CX-0003",
-            "3": "CX-0018",
-            "4": "CX-0045",
-            "5": "CX-0053"
-        },
+        "normative": [
+            "CX-0002",
+            "CX-0003",
+            "CX-0018",
+            "CX-0045",
+            "CX-0053"
+        ],
         "non-normative": [],
         "aspect-models": [
             "urn:samm:io.catenax.part_type_information:1.0.0",
@@ -545,13 +545,13 @@
         ]
     },
     "CX-0127": {
-        "normative": {
-            "1": "CX-0002",
-            "2": "CX-0003",
-            "3": "CX-0018",
-            "4": "CX-0045",
-            "5": "CX-0053"
-        },
+        "normative": [
+            "CX-0002",
+            "CX-0003",
+            "CX-0018",
+            "CX-0045",
+            "CX-0053"
+        ],
         "non-normative": [],
         "aspect-models": [
             "urn:samm:io.catenax.serial_part:3.0.0",
@@ -562,19 +562,19 @@
         ]
     },
     "CX-0128": {
-        "normative": {
-            "1": "CX-0002",
-            "2": "CX-0003",
-            "3": "CX-0010",
-            "4": "CX-0018",
-            "5": "CX-0126",
-            "6": "CX-0146"
-        },
-        "non-normative": {
-            "1": "CX-0046",
-            "2": "CX-0047",
-            "3": "CX-0048"
-        },
+        "normative": [
+            "CX-0002",
+            "CX-0003",
+            "CX-0010",
+            "CX-0018",
+            "CX-0126",
+            "CX-0146"
+        ],
+        "non-normative": [
+            "CX-0046",
+            "CX-0047",
+            "CX-0048"
+        ],
         "aspect-models": [
             "urn:samm:io.catenax.week_based_material_demand:3.0.0",
             "urn:samm:io.catenax.week_based_capacity_group:3.0.0",
@@ -584,14 +584,14 @@
         ]
     },
     "CX-0129": {
-        "normative": {
-            "1": "CX-0003",
-            "2": "CX-0006",
-            "3": "CX-0010",
-            "4": "CX-0018",
-            "5": "CX-0115",
-            "6": "CX-0142"
-        },
+        "normative": [
+            "CX-0003",
+            "CX-0006",
+            "CX-0010",
+            "CX-0018",
+            "CX-0115",
+            "CX-0142"
+        ],
         "non-normative": [],
         "aspect-models": [
             "urn:samm:io.catenax.request_for_quotation:3.0.0",
@@ -601,23 +601,23 @@
     },
     "CX-0131": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0001",
-            "2": "CX-0002",
-            "3": "CX-0003",
-            "4": "CX-0006",
-            "5": "CX-0013",
-            "6": "CX-0014",
-            "7": "CX-0015",
-            "8": "CX-0018",
-            "9": "CX-0049",
-            "10": "CX-0050",
-            "11": "CX-0017",
-            "12": "CX-0053",
-            "13": "CX-0127",
-            "14": "CX-0126",
-            "15": "CX-0136"
-        },
+        "non-normative": [
+            "CX-0001",
+            "CX-0002",
+            "CX-0003",
+            "CX-0006",
+            "CX-0013",
+            "CX-0014",
+            "CX-0015",
+            "CX-0018",
+            "CX-0049",
+            "CX-0050",
+            "CX-0017",
+            "CX-0053",
+            "CX-0127",
+            "CX-0126",
+            "CX-0136"
+        ],
         "aspect-models": [
             "urn:samm:io.catenax.single_level_bom_as_specified:2.0.0",
             "urn:bamm:io.catenax.material_for_homologation:1.0.0",
@@ -645,10 +645,10 @@
         ]
     },
     "CX-0133": {
-        "normative": {
-            "1": "CX-0003",
-            "2": "CX-0018"
-        },
+        "normative": [
+            "CX-0003",
+            "CX-0018"
+        ],
         "non-normative": [],
         "aspect-models": [
             "urn:samm:io.catenax.material_flow_scenario_request:2.0.0"
@@ -656,36 +656,36 @@
     },
     "CX-0135": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0010"
-        },
+        "non-normative": [
+            "CX-0010"
+        ],
         "aspect-models": []
     },
     "CX-0136": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0003",
-            "2": "CX-0001",
-            "3": "CX-0002",
-            "4": "CX-0018",
-            "5": "CX-0126"
-        },
+        "non-normative": [
+            "CX-0003",
+            "CX-0001",
+            "CX-0002",
+            "CX-0018",
+            "CX-0126"
+        ],
         "aspect-models": [
             "urn:samm:io.catenax.pcf:7.0.0"
         ]
     },
     "CX-0138": {
-        "normative": {
-            "1": "CX-0023",
-            "2": "CX-0003"
-        },
-        "non-normative": {
-            "1": "CX-0089",
-            "2": "CX-0057",
-            "3": "CX-0088",
-            "4": "CX-0090",
-            "5": "CX-0002"
-        },
+        "normative": [
+            "CX-0023",
+            "CX-0003"
+        ],
+        "non-normative": [
+            "CX-0089",
+            "CX-0057",
+            "CX-0088",
+            "CX-0090",
+            "CX-0002"
+        ],
         "aspect-models": [
             "urn:bamm:io.catenax.classified_load_spectrum:1.0.0",
             "urn:bamm:io.catenax.rul:1.0.0",
@@ -694,30 +694,30 @@
     },
     "CX-0139": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0007",
-            "2": "CX-0081"
-        },
+        "non-normative": [
+            "CX-0007",
+            "CX-0081"
+        ],
         "aspect-models": []
     },
     "CX-0141": {
-        "normative": {
-            "1": "CX-0067",
-            "2": "CX-0084"
-        },
+        "normative": [
+            "CX-0067",
+            "CX-0084"
+        ],
         "non-normative": [],
         "aspect-models": []
     },
     "CX-0142": {
-        "normative": {
-            "1": "CX-0003",
-            "2": "CX-0010",
-            "3": "CX-0018"
-        },
-        "non-normative": {
-            "1": "CX-0068",
-            "2": "CX-0069"
-        },
+        "normative": [
+            "CX-0003",
+            "CX-0010",
+            "CX-0018"
+        ],
+        "non-normative": [
+            "CX-0068",
+            "CX-0069"
+        ],
         "aspect-models": [
             "urn:samm:io.catenax.shopfloor_information.get_production_forecast:2.0.0",
             "urn:samm:io.catenax.shopfloor_information.provide_production_forecast:2.0.0",
@@ -728,22 +728,22 @@
     },
     "CX-0143": {
         "normative": [],
-        "non-normative": {
-            "1": "CX-0010",
-            "2": "CX-0001",
-            "3": "CX-0002",
-            "4": "CX-0003",
-            "5": "CX-0005",
-            "6": "CX-0006",
-            "7": "CX-0008",
-            "8": "CX-0013",
-            "9": "CX-0014",
-            "10": "CX-0015",
-            "11": "CX-0018",
-            "12": "CX-0053",
-            "13": "CX-0126",
-            "14": "CX-0127"
-        },
+        "non-normative": [
+            "CX-0010",
+            "CX-0001",
+            "CX-0002",
+            "CX-0003",
+            "CX-0005",
+            "CX-0006",
+            "CX-0008",
+            "CX-0013",
+            "CX-0014",
+            "CX-0015",
+            "CX-0018",
+            "CX-0053",
+            "CX-0126",
+            "CX-0127"
+        ],
         "aspect-models": [
             "urn:bamm:io.catenax.transmission.transmission_pass:2.0.0",
             "urn:samm:io.catenax.generic.digital_product_passport:4.0.0",
@@ -759,82 +759,82 @@
         ]
     },
     "CX-0144": {
-        "normative": {
-            "1": "CX-0003",
-            "2": "CX-0005",
-            "3": "CX-0006",
-            "4": "CX-0010",
-            "5": "CX-0014",
-            "6": "CX-0015",
-            "7": "CX-0016",
-            "8": "CX-0017",
-            "9": "CX-0018",
-            "10": "CX-0049",
-            "11": "CX-0050",
-            "12": "CX-0053",
-            "13": "CX-0067",
-            "14": "CX-0084"
-        },
-        "non-normative": {
-            "1": "CX-0113"
-        },
+        "normative": [
+            "CX-0003",
+            "CX-0005",
+            "CX-0006",
+            "CX-0010",
+            "CX-0014",
+            "CX-0015",
+            "CX-0016",
+            "CX-0017",
+            "CX-0018",
+            "CX-0049",
+            "CX-0050",
+            "CX-0053",
+            "CX-0067",
+            "CX-0084"
+        ],
+        "non-normative": [
+            "CX-0113"
+        ],
         "aspect-models": [
             "urn:bamm:io.catenax.essincident:3.0.0"
         ]
     },
     "CX-0145": {
-        "normative": {
-            "1": "CX-0002",
-            "2": "CX-0003",
-            "3": "CX-0006",
-            "4": "CX-0010",
-            "5": "CX-0018",
-            "6": "CX-0053",
-            "7": "CX-0118",
-            "8": "CX-0120",
-            "9": "CX-0121",
-            "10": "CX-0122",
-            "11": "CX-0126",
-            "12": "CX-0128",
-            "13": "CX-0146"
-        },
+        "normative": [
+            "CX-0002",
+            "CX-0003",
+            "CX-0006",
+            "CX-0010",
+            "CX-0018",
+            "CX-0053",
+            "CX-0118",
+            "CX-0120",
+            "CX-0121",
+            "CX-0122",
+            "CX-0126",
+            "CX-0128",
+            "CX-0146"
+        ],
         "non-normative": [],
         "aspect-models": [
             "urn:samm:io.catenax.days_of_supply:2.0.0"
         ]
     },
     "CX-0146": {
-        "normative": {
-            "1": "CX-0003",
-            "2": "CX-0006",
-            "3": "CX-0010",
-            "4": "CX-0018",
-            "5": "CX-0126"
-        },
-        "non-normative": {
-            "1": "CX-0002",
-            "2": "CX-0118",
-            "3": "CX-0120",
-            "4": "CX-0121",
-            "5": "CX-0122",
-            "6": "CX-0128",
-            "7": "CX-0145"
-        },
+        "normative": [
+            "CX-0003",
+            "CX-0006",
+            "CX-0010",
+            "CX-0018",
+            "CX-0126"
+        ],
+        "non-normative": [
+            "CX-0002",
+            "CX-0118",
+            "CX-0120",
+            "CX-0121",
+            "CX-0122",
+            "CX-0128",
+            "CX-0145"
+        ],
         "aspect-models": [
             "urn:samm:io.catenax.demand_and_capacity_notification:2.0.0"
         ]
     },
     "CX-0149": {
-        "normative": {
-            "1": "CX-0011",
-            "2": "CX-0015",
-            "3": "CX-0050"
-        },
-        "non-normative": {
-            "1": "CX-0016",
-            "2": "CX-0017",
-            "3": "CX-0018"
-        },
+        "normative": [
+            "CX-0011",
+            "CX-0015",
+            "CX-0050"
+        ],
+        "non-normative": [
+            "CX-0016",
+            "CX-0017",
+            "CX-0018"
+        ],
         "aspect-models": []
     }
 }
