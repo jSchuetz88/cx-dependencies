@@ -30,7 +30,7 @@ CX.Standards.Manager.onReady(function(){
       dm[x] = [];
 
       for (var j of Object.keys(CX.getAllStandards('onlyValid'))){
-          if(CX.getStandard(i).getDependencies().getStandards().includes(j)){
+          if(CX.getStandard(i).getDependencies().getReferences('normative').includes(j)){
             // console.log(x+" ; "+z+" => "+j);
             dm[x][z] = 1; // debug: output j
           }else{
@@ -179,18 +179,30 @@ function hilight_selected(selected) {
       .classed("selected", true);
 
   // -> add standard references
-  // refenced standards
+  // normative refenced standards
   jQuery("#cx-id-view").text(selectedCXId + " - "+CX.getStandard(selectedCXId).getName());
-  jQuery("#cx-id-references").html("<p style='font-weight: bold;'>Standard mentions the following documents:</p><ul class='ref_cx'></ul>");
+  jQuery("#cx-id-references").html("<p style='font-weight: bold;'>Normative References:</p><ul class='ref_normative_cx'></ul>");
   // console.log(release_data[''+selectedCXId+''][0]);
-
   // List all references standards
-  for (var cxId of CX.getStandard(selectedCXId).getDependencies().getStandards()){
-    jQuery("#cx-id-references ul.ref_cx").append("<li data-cx='"+cxId+"'>"
+  for (var cxId of CX.getStandard(selectedCXId).getDependencies().getReferences('normative')){
+    jQuery("#cx-id-references ul.ref_normative_cx").append("<li data-cx='"+cxId+"'>"
         +cxId+" - "+CX.getStandard(cxId).getName()
         +(CX.getStandard(cxId).getURL() ? " (<a href=\""+CX.getStandard(cxId).getURL()+"\">open</a>)" : "")
     +"</li>");
   }
+
+    // -> add standard references
+  // non-normative refenced standards
+  jQuery("#cx-id-references").append("<p style='font-weight: bold;'>Non-normative References:</p><ul class='ref_non_normative_cx'></ul>");
+  // console.log(release_data[''+selectedCXId+''][0]);
+  // List all references standards
+  for (var cxId of CX.getStandard(selectedCXId).getDependencies().getReferences('non-normative')){
+    jQuery("#cx-id-references ul.ref_non_normative_cx").append("<li data-cx='"+cxId+"'>"
+        +cxId+" - "+CX.getStandard(cxId).getName()
+        +(CX.getStandard(cxId).getURL() ? " (<a href=\""+CX.getStandard(cxId).getURL()+"\">open</a>)" : "")
+    +"</li>");
+  }
+
 
   // hilight all outdated standards
   for (var cxId of Object.keys(CX.getAllStandards())){
@@ -202,7 +214,7 @@ function hilight_selected(selected) {
   // List all referenced semantic models
   jQuery("#cx-id-references").append("<p style='font-weight: bold;'>Semantic models mentioned:</p><ul class='ref_sem'></ul>");
   // console.log(release_data[''+selectedCXId+''][0]);
-  for (var sem of CX.getStandard(selectedCXId).getDependencies().getSemantics()){
+  for (var sem of CX.getStandard(selectedCXId).getDependencies().getReferences('aspect-models')){
     jQuery("#cx-id-references ul.ref_sem").append("<li data-sem='"+sem+"'>"+sem+"</li>");
   }
   jQuery("#cx-id-references ul.ref_sem li:contains(bamm)").css("color", "red");
