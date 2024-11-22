@@ -51,9 +51,9 @@ function doStart(){
   const keys = Object.keys(json_resp_standards);
   var mapping = Array();
   keys.forEach((key, index) => {
-    for (var j of Object.keys(json_resp_standards[key][1])){
-      if(!mapping[json_resp_standards[key][1][j]]) mapping[json_resp_standards[key][1][j]] = Array();
-      mapping[json_resp_standards[key][1][j]].push('<a href="'+json_db[key].url+'">'+key+'</a>');
+    for (var j of Object.keys(json_resp_standards[key]['aspect-models'])){
+      if(!mapping[json_resp_standards[key]['aspect-models'][j]]) mapping[json_resp_standards[key]['aspect-models'][j]] = Array();
+      mapping[json_resp_standards[key]['aspect-models'][j]].push('<a href="'+json_db[key].url+'">'+key+'</a>');
     }
   });
 
