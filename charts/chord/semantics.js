@@ -54,11 +54,15 @@ function doStart(){
     for (var j of Object.keys(json_resp_standards[key]['aspect-models'])){
       if(!mapping[json_resp_standards[key]['aspect-models'][j]]) mapping[json_resp_standards[key]['aspect-models'][j]] = Array();
       mapping[json_resp_standards[key]['aspect-models'][j]].push('<a href="'+json_db[key].url+'">'+key+'</a>');
+      // console.log(json_resp_standards[key]['aspect-models'][j]+" : "+key);
     }
   });
 
+  // not really efficient, loop through all standards and check whether an aspect model is mentioned or not
   for (var sammId of Object.keys(mapping)){
     for (var samm of json_resp_semantics){
+      // if match, add to table
+      // console.log(samm.id+" == "+sammId);
       if(samm.id == sammId){
         jQuery( "#sem_xxx_944 tbody" ).append('<tr>'
           +'<td>'+samm.id+'</td>'
