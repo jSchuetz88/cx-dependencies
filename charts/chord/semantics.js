@@ -3,13 +3,13 @@ var json_resp_standards;
 var json_db;
 
 var requestSemantics = jQuery.ajax({
-  url: "./_data/r24.08/semantics.json",
+  url: "./_data/r25.03/semantics.json",
   method: "GET",
   dataType: "json"
 });
 
 var requestStandards = jQuery.ajax({
-  url: "./_data/r24.08/standards.json",
+  url: "./_data/r25.03/standards.json",
   method: "GET",
   dataType: "json"
 });
