@@ -1,0 +1,996 @@
+{
+    "CX-0001": {
+      "normative": [
+        "CX-0006",
+        "CX-0010"
+      ],
+      "non-normative": [
+        "CX-0001"
+      ],
+      "aspect-models": []
+    },
+    "CX-0002": {
+      "normative": [],
+      "non-normative": [
+        "CX-0002",
+        "CX-0003",
+        "CX-0044",
+        "CX-0018",
+        "CX-0001",
+        "CX-0053"
+      ],
+      "aspect-models": [
+        "urn:bamm:io.catenax.material_for_recycling:1.1.0"
+      ]
+    },
+    "CX-0003": {
+      "normative": [
+        "CX-0002"
+      ],
+      "non-normative": [
+        "CX-0003",
+        "CX-0018"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.material_for_recycling:1.0.0"
+      ]
+    },
+    "CX-0005": {
+      "normative": [
+        "CX-0002",
+        "CX-0018",
+        "CX-0024",
+        "CX-0061",
+        "CX-0125"
+      ],
+      "non-normative": [
+        "CX-0005",
+        "CX-0001",
+        "CX-0003",
+        "CX-0010",
+        "CX-0030",
+        "CX-0032",
+        "CX-0094",
+        "CX-0127",
+        "CX-0126"
+      ],
+      "aspect-models": []
+    },
+    "CX-0006": {
+      "normative": [
+        "CX-0009",
+        "CX-0010",
+        "CX-0011",
+        "CX-0013"
+      ],
+      "non-normative": [
+        "CX-0006",
+        "CX-0008"
+      ],
+      "aspect-models": []
+    },
+    "CX-0007": {
+      "normative": [
+        "CX-0013",
+        "CX-0018",
+        "CX-0149"
+      ],
+      "non-normative": [
+        "CX-0007",
+        "CX-0055",
+        "CX-0002",
+        "CX-0126",
+        "CX-0127",
+        "CX-0143",
+        "CX-0010",
+        "CX-0012"
+      ],
+      "aspect-models": []
+    },
+    "CX-0008": {
+      "normative": [],
+      "non-normative": [
+        "CX-0008"
+      ],
+      "aspect-models": []
+    },
+    "CX-0009": {
+      "normative": [],
+      "non-normative": [
+        "CX-0009",
+        "CX-0006"
+      ],
+      "aspect-models": []
+    },
+    "CX-0010": {
+      "normative": [],
+      "non-normative": [
+        "CX-0010",
+        "CX-0011",
+        "CX-0074",
+        "CX-0012",
+        "CX-0076"
+      ],
+      "aspect-models": []
+    },
+    "CX-0012": {
+      "normative": [],
+      "non-normative": [
+        "CX-0012",
+        "CX-0018",
+        "CX-0010",
+        "CX-0074",
+        "CX-0076"
+      ],
+      "aspect-models": []
+    },
+    "CX-0013": {
+      "normative": [
+        "CX-0049",
+        "CX-0149"
+      ],
+      "non-normative": [
+        "CX-0013"
+      ],
+      "aspect-models": []
+    },
+    "CX-0014": {
+      "normative": [
+        "CX-0015"
+      ],
+      "non-normative": [
+        "CX-0014"
+      ],
+      "aspect-models": []
+    },
+    "CX-0015": {
+      "normative": [],
+      "non-normative": [
+        "CX-0015"
+      ],
+      "aspect-models": []
+    },
+    "CX-0018": {
+      "normative": [],
+      "non-normative": [
+        "CX-0018",
+        "CX-0010",
+        "CX-0149",
+        "CX-0050"
+      ],
+      "aspect-models": []
+    },
+    "CX-0030": {
+      "normative": [
+        "CX-0003",
+        "CX-0002",
+        "CX-0018"
+      ],
+      "non-normative": [
+        "CX-0030",
+        "CX-0032"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.single_level_bom_as_specified:2.0.0"
+      ]
+    },
+    "CX-0031": {
+      "normative": [
+        "CX-0002",
+        "CX-0003",
+        "CX-0004",
+        "CX-0018",
+        "CX-0001"
+      ],
+      "non-normative": [
+        "CX-0031"
+      ],
+      "aspect-models": []
+    },
+    "CX-0032": {
+      "normative": [
+        "CX-0003",
+        "CX-0002",
+        "CX-0018"
+      ],
+      "non-normative": [
+        "CX-0032"
+      ],
+      "aspect-models": [
+        "urn:bamm:io.catenax.bom_as_specified:2.0.0"
+      ]
+    },
+    "CX-0044": {
+      "normative": [],
+      "non-normative": [
+        "CX-0044",
+        "CX-0003"
+      ],
+      "aspect-models": []
+    },
+    "CX-0045": {
+      "normative": [
+        "CX-0002",
+        "CX-0003",
+        "CX-0010"
+      ],
+      "non-normative": [
+        "CX-0045",
+        "CX-0001",
+        "CX-0126",
+        "CX-0127"
+      ],
+      "aspect-models": []
+    },
+    "CX-0049": {
+      "normative": [],
+      "non-normative": [
+        "CX-0049",
+        "CX-0013"
+      ],
+      "aspect-models": []
+    },
+    "CX-0050": {
+      "normative": [],
+      "non-normative": [
+        "CX-0050"
+      ],
+      "aspect-models": []
+    },
+    "CX-0053": {
+      "normative": [
+        "CX-0010"
+      ],
+      "non-normative": [
+        "CX-0053",
+        "CX-0001",
+        "CX-0018",
+        "CX-0002",
+        "CX-0012"
+      ],
+      "aspect-models": []
+    },
+    "CX-0054": {
+      "normative": [],
+      "non-normative": [
+        "CX-0054",
+        "CX-0006",
+        "CX-0009",
+        "CX-0010",
+        "CX-0011",
+        "CX-0013"
+      ],
+      "aspect-models": []
+    },
+    "CX-0055": {
+      "normative": [
+        "CX-0001",
+        "CX-0002",
+        "CX-0003",
+        "CX-0012",
+        "CX-0018",
+        "CX-0050",
+        "CX-0053",
+        "CX-0067",
+        "CX-0084"
+      ],
+      "non-normative": [
+        "CX-0055"
+      ],
+      "aspect-models": []
+    },
+    "CX-0059": {
+      "normative": [
+        "CX-0018",
+        "CX-0023",
+        "CX-0067",
+        "CX-0084"
+      ],
+      "non-normative": [
+        "CX-0059",
+        "CX-0056",
+        "CX-0057",
+        "CX-0058",
+        "CX-0138",
+        "CX-0002",
+        "CX-0003"
+      ],
+      "aspect-models": [
+        "urn:bamm:io.catenax.classified_load_spectrum:1.0.0",
+        "urn:bamm:io.catenax.rul:1.0.0"
+      ]
+    },
+    "CX-0067": {
+      "normative": [
+        "CX-0084"
+      ],
+      "non-normative": [
+        "CX-0067"
+      ],
+      "aspect-models": []
+    },
+    "CX-0074": {
+      "normative": [],
+      "non-normative": [
+        "CX-0074",
+        "CX-0018",
+        "CX-0010",
+        "CX-0012",
+        "CX-0076"
+      ],
+      "aspect-models": []
+    },
+    "CX-0076": {
+      "normative": [
+        "CX-0010",
+        "CX-0012",
+        "CX-0074"
+      ],
+      "non-normative": [
+        "CX-0076"
+      ],
+      "aspect-models": []
+    },
+    "CX-0077": {
+      "normative": [],
+      "non-normative": [
+        "CX-0077",
+        "CX-0076",
+        "CX-0074",
+        "CX-0012",
+        "CX-0018",
+        "CX-0010"
+      ],
+      "aspect-models": []
+    },
+    "CX-0078": {
+      "normative": [],
+      "non-normative": [
+        "CX-0078",
+        "CX-0074",
+        "CX-0012",
+        "CX-0018",
+        "CX-0010"
+      ],
+      "aspect-models": []
+    },
+    "CX-0079": {
+      "normative": [
+        "CX-0018"
+      ],
+      "non-normative": [
+        "CX-0079",
+        "CX-0074",
+        "CX-0012",
+        "CX-0010"
+      ],
+      "aspect-models": []
+    },
+    "CX-0080": {
+      "normative": [],
+      "non-normative": [
+        "CX-0080",
+        "CX-0074",
+        "CX-0012",
+        "CX-0018"
+      ],
+      "aspect-models": []
+    },
+    "CX-0081": {
+      "normative": [],
+      "non-normative": [
+        "CX-0081",
+        "CX-0074",
+        "CX-0018"
+      ],
+      "aspect-models": []
+    },
+    "CX-0084": {
+      "normative": [
+        "CX-0018",
+        "CX-0067"
+      ],
+      "non-normative": [
+        "CX-0084",
+        "CX-0059"
+      ],
+      "aspect-models": []
+    },
+    "CX-0094": {
+      "normative": [
+        "CX-0002",
+        "CX-0003",
+        "CX-0004",
+        "CX-0018"
+      ],
+      "non-normative": [
+        "CX-0094"
+      ],
+      "aspect-models": [
+        "urn:bamm:io.catenax.part_site_information_as_planned:1.0.0"
+      ]
+    },
+    "CX-0102": {
+      "normative": [],
+      "non-normative": [
+        "CX-0102"
+      ],
+      "aspect-models": []
+    },
+    "CX-0105": {
+      "normative": [
+        "CX-0002",
+        "CX-0018",
+        "CX-0045",
+        "CX-0083",
+        "CX-0106",
+        "CX-0104",
+        "CX-0070"
+      ],
+      "non-normative": [
+        "CX-0105",
+        "CX-0003"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.iot_sensor_device_definition:2.0.0",
+        "urn:samm:io.catenax.iot_sensor_data:2.0.0",
+        "urn:samm:io.catenax.asset_tracker_links:2.0.0"
+      ]
+    },
+    "CX-0115": {
+      "normative": [
+        "CX-0001",
+        "CX-0002",
+        "CX-0003",
+        "CX-0006",
+        "CX-0010",
+        "CX-0018"
+      ],
+      "non-normative": [
+        "CX-0115",
+        "CX-0052"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.manufacturing_capability:3.1.0"
+      ]
+    },
+    "CX-0116": {
+      "normative": [],
+      "non-normative": [
+        "CX-0116",
+        "CX-0074",
+        "CX-0012",
+        "CX-0018",
+        "CX-0010"
+      ],
+      "aspect-models": []
+    },
+    "CX-0117": {
+      "normative": [],
+      "non-normative": [
+        "CX-0117",
+        "CX-0100",
+        "CX-0033",
+        "CX-0034",
+        "CX-0035",
+        "CX-0001",
+        "CX-0002",
+        "CX-0003",
+        "CX-0006",
+        "CX-0013",
+        "CX-0014",
+        "CX-0015",
+        "CX-0018",
+        "CX-0049",
+        "CX-0050",
+        "CX-0143"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.market_place_offer:2.0.0",
+        "urn:samm:io.catenax.battery.battery_pass:5.0.0",
+        "urn:samm:io.catenax.return_request:2.0.0"
+      ]
+    },
+    "CX-0118": {
+      "normative": [
+        "CX-0001",
+        "CX-0002",
+        "CX-0003",
+        "CX-0006",
+        "CX-0010",
+        "CX-0018",
+        "CX-0053",
+        "CX-0120",
+        "CX-0121",
+        "CX-0122",
+        "CX-0126",
+        "CX-0145",
+        "CX-0146"
+      ],
+      "non-normative": [
+        "CX-0118"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.delivery_information:2.0.0"
+      ]
+    },
+    "CX-0120": {
+      "normative": [
+        "CX-0001",
+        "CX-0002",
+        "CX-0003",
+        "CX-0006",
+        "CX-0010",
+        "CX-0018",
+        "CX-0053",
+        "CX-0118",
+        "CX-0121",
+        "CX-0122",
+        "CX-0126",
+        "CX-0128",
+        "CX-0145",
+        "CX-0146"
+      ],
+      "non-normative": [
+        "CX-0120"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.short_term_material_demand:1.0.0"
+      ]
+    },
+    "CX-0121": {
+      "normative": [
+        "CX-0001",
+        "CX-0002",
+        "CX-0003",
+        "CX-0006",
+        "CX-0010",
+        "CX-0018",
+        "CX-0053",
+        "CX-0118",
+        "CX-0120",
+        "CX-0122",
+        "CX-0126",
+        "CX-0128",
+        "CX-0145",
+        "CX-0146"
+      ],
+      "non-normative": [
+        "CX-0121"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.planned_production_output:2.0.0",
+        "urn:samm:io.catenax.item_stock:2.0.0"
+      ]
+    },
+    "CX-0122": {
+      "normative": [
+        "CX-0001",
+        "CX-0002",
+        "CX-0003",
+        "CX-0006",
+        "CX-0010",
+        "CX-0018",
+        "CX-0053",
+        "CX-0118",
+        "CX-0120",
+        "CX-0121",
+        "CX-0126",
+        "CX-0128",
+        "CX-0145",
+        "CX-0146"
+      ],
+      "non-normative": [
+        "CX-0122"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.item_stock:2.0.0"
+      ]
+    },
+    "CX-0123": {
+      "normative": [
+        "CX-0001",
+        "CX-0003",
+        "CX-0018",
+        "CX-0125"
+      ],
+      "non-normative": [
+        "CX-0123"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.fleet.vehicles:3.0.0",
+        "urn:samm:io.catenax.quality_task:2.0.0",
+        "urn:samm:io.catenax.fleet.diagnostic_data:2.0.0",
+        "urn:samm:io.catenax.fleet.claim_data:2.0.0",
+        "urn:samm:io.catenax.parts_analyses:3.0.0",
+        "urn:samm:io.catenax.manufactured_parts_quality_information:2.1.0",
+        "urn:samm:io.catenax.quality_task_attachment:2.0.0",
+        "urn:samm:io.catenax.early_warning_notification:1.0.0",
+        "urn:samm:io.catenax.failure_pattern:1.0.0"
+      ]
+    },
+    "CX-0125": {
+      "normative": [
+        "CX-0001",
+        "CX-0002",
+        "CX-0003",
+        "CX-0018",
+        "CX-0127"
+      ],
+      "non-normative": [
+        "CX-0125"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.traction_battery_code:2.0.0",
+        "urn:samm:io.catenax.special_characteristics:1.0.0"
+      ]
+    },
+    "CX-0126": {
+      "normative": [
+        "CX-0001",
+        "CX-0002",
+        "CX-0003",
+        "CX-0018",
+        "CX-0045",
+        "CX-0053"
+      ],
+      "non-normative": [
+        "CX-0126"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.part_type_information:1.0.0",
+        "urn:samm:io.catenax.single_level_bom_as_planned:3.0.0",
+        "urn:samm:io.catenax.single_level_usage_as_planned:2.0.0"
+      ]
+    },
+    "CX-0127": {
+      "normative": [
+        "CX-0001",
+        "CX-0002",
+        "CX-0003",
+        "CX-0018",
+        "CX-0045",
+        "CX-0053"
+      ],
+      "non-normative": [
+        "CX-0127"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.serial_part:3.0.0",
+        "urn:samm:io.catenax.batch:3.0.0",
+        "urn:samm:io.catenax.just_in_sequence_part:3.0.0",
+        "urn:samm:io.catenax.single_level_bom_as_built:3.0.0",
+        "urn:samm:io.catenax.single_level_usage_as_built:3.0.0"
+      ]
+    },
+    "CX-0128": {
+      "normative": [
+        "CX-0001",
+        "CX-0002",
+        "CX-0003",
+        "CX-0010",
+        "CX-0018",
+        "CX-0126",
+        "CX-0146"
+      ],
+      "non-normative": [
+        "CX-0128",
+        "CX-0046",
+        "CX-0047",
+        "CX-0048"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.week_based_material_demand:3.0.1",
+        "urn:samm:io.catenax.week_based_capacity_group:3.0.1",
+        "urn:samm:io.catenax.id_based_request_for_update:3.0.0",
+        "urn:samm:io.catenax.id_based_comment:1.0.0",
+        "urn:samm:io.catenax.week_based_capacity_group:2.0.0"
+      ]
+    },
+    "CX-0129": {
+      "normative": [
+        "CX-0001",
+        "CX-0003",
+        "CX-0006",
+        "CX-0010",
+        "CX-0018",
+        "CX-0115",
+        "CX-0142"
+      ],
+      "non-normative": [
+        "CX-0129"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.request_for_quotation:3.0.0",
+        "urn:samm:io.catenax.shared.message_header:3.0.0",
+        "urn:samm:io.catenax.shared.bill_of_process:1.1.0"
+      ]
+    },
+    "CX-0131": {
+      "normative": [],
+      "non-normative": [
+        "CX-0131",
+        "CX-0001",
+        "CX-0002",
+        "CX-0003",
+        "CX-0006",
+        "CX-0013",
+        "CX-0014",
+        "CX-0015",
+        "CX-0018",
+        "CX-0049",
+        "CX-0050",
+        "CX-0017",
+        "CX-0053",
+        "CX-0127",
+        "CX-0126",
+        "CX-0136"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.single_level_bom_as_specified:2.0.0",
+        "urn:bamm:io.catenax.material_for_homologation:1.0.0",
+        "urn:bamm:io.catenax.part_as_specified:2.0.0",
+        "urn:samm:io.catenax.quality_task:2.0.0",
+        "urn:samm:io.catenax.vehicle.product_description:3.0.0",
+        "urn:samm:io.catenax.fleet.diagnostic_data:2.0.0",
+        "urn:samm:io.catenax.fleet.claim_data:2.0.0",
+        "urn:samm:io.catenax.parts_analyses:3.0.0",
+        "urn:samm:io.catenax.manufactured_parts_quality_information:2.1.0",
+        "urn:samm:io.catenax.fleet.vehicles:2.1.0",
+        "urn:samm:io.catenax.quality_task_attachment:2.0.0",
+        "urn:samm:io.catenax.return_request:2.0.0",
+        "urn:samm:io.catenax.battery.battery_pass:5.0.0",
+        "urn:samm:io.catenax.market_place_offer:2.0.0",
+        "urn:bamm:io.catenax.rul:1.0.0",
+        "urn:samm:io.catenax.reuse_certificate:3.0.0",
+        "urn:samm:io.catenax.waste_certificate:1.0.0",
+        "urn:samm:io.catenax.refurbishing_certificate:3.0.0",
+        "urn:samm:io.catenax.remanufacturing_certificate:3.0.0",
+        "urn:samm:io.catenax.material_recycling_certificate:1.0.0",
+        "urn:samm:io.catenax.repair_certificate:1.0.0",
+        "urn:bamm:io.catenax.decomissioning_certificate:1.0.0",
+        "urn:samm:io.catenax.secondary_material_content:1.0.0"
+      ]
+    },
+    "CX-0133": {
+      "normative": [
+        "CX-0001",
+        "CX-0003",
+        "CX-0018"
+      ],
+      "non-normative": [
+        "CX-0133"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.material_flow_scenario_request:2.0.0"
+      ]
+    },
+    "CX-0135": {
+      "normative": [
+        "CX-0003",
+        "CX-0010"
+      ],
+      "non-normative": [
+        "CX-0135",
+        "CX-0001"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.business_partner_certificate:3.0.0"
+      ]
+    },
+    "CX-0136": {
+      "normative": [],
+      "non-normative": [
+        "CX-0136",
+        "CX-0003",
+        "CX-0001",
+        "CX-0002",
+        "CX-0018",
+        "CX-0126"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.pcf:7.0.0"
+      ]
+    },
+    "CX-0138": {
+      "normative": [
+        "CX-0018",
+        "CX-0023",
+        "CX-0003"
+      ],
+      "non-normative": [
+        "CX-0138",
+        "CX-0089",
+        "CX-0057",
+        "CX-0088",
+        "CX-0090",
+        "CX-0002"
+      ],
+      "aspect-models": [
+        "urn:bamm:io.catenax.classified_load_spectrum:1.0.0",
+        "urn:bamm:io.catenax.rul:1.0.0",
+        "urn:bamm:io.catenax.user_estimated_loading:1.0.0"
+      ]
+    },
+    "CX-0141": {
+      "normative": [
+        "CX-0018",
+        "CX-0067",
+        "CX-0084"
+      ],
+      "non-normative": [
+        "CX-0141"
+      ],
+      "aspect-models": []
+    },
+    "CX-0142": {
+      "normative": [
+        "CX-0001",
+        "CX-0003",
+        "CX-0010",
+        "CX-0018"
+      ],
+      "non-normative": [
+        "CX-0142",
+        "CX-0068",
+        "CX-0069"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.shopfloor_information.get_production_forecast:2.0.0",
+        "urn:samm:io.catenax.shopfloor_information.provide_production_forecast:2.0.0",
+        "urn:samm:io.catenax.shopfloor_information.get_production_tracking:1.0.0",
+        "urn:samm:io.catenax.shopfloor_information.provide_production_tracking:1.0.0",
+        "urn:samm:io.catenax.shared.shopfloor_information_types:2.0.0"
+      ]
+    },
+    "CX-0143": {
+      "normative": [],
+      "non-normative": [
+        "CX-0010",
+        "CX-0001",
+        "CX-0002",
+        "CX-0003",
+        "CX-0005",
+        "CX-0006",
+        "CX-0008",
+        "CX-0013",
+        "CX-0014",
+        "CX-0015",
+        "CX-0018",
+        "CX-0053",
+        "CX-0126",
+        "CX-0127"
+      ],
+      "aspect-models": [
+        "urn:bamm:io.catenax.transmission.transmission_pass:2.0.0",
+        "urn:samm:io.catenax.generic.digital_product_passport:4.0.0",
+        "urn:samm:io.catenax.batch:3.0.0",
+        "urn:samm:io.catenax.shared.part_classification:1.0.0",
+        "urn:samm:io.catenax.part_type_information:1.0.0",
+        "urn:samm:io.catenax.shared.business_partner_number:2.0.0",
+        "urn:samm:io.catenax.serial_part:3.0.0",
+        "urn:samm:io.catenax.shared.quantity:2.0.0",
+        "urn:samm:io.catenax.shared.uuid:2.0.0",
+        "urn:samm:io.catenax.battery.battery_pass:5.0.0",
+        "urn:samm:io.catenax.transmission.transmission_pass:2.0.0"
+      ]
+    },
+    "CX-0144": {
+      "normative": [
+        "CX-0001",
+        "CX-0003",
+        "CX-0005",
+        "CX-0006",
+        "CX-0010",
+        "CX-0014",
+        "CX-0015",
+        "CX-0016",
+        "CX-0017",
+        "CX-0018",
+        "CX-0049",
+        "CX-0050",
+        "CX-0053",
+        "CX-0067",
+        "CX-0084"
+      ],
+      "non-normative": [
+        "CX-0144",
+        "CX-0113"
+      ],
+      "aspect-models": [
+        "urn:bamm:io.catenax.essincident:3.0.0"
+      ]
+    },
+    "CX-0145": {
+      "normative": [
+        "CX-0001",
+        "CX-0002",
+        "CX-0003",
+        "CX-0006",
+        "CX-0010",
+        "CX-0018",
+        "CX-0053",
+        "CX-0118",
+        "CX-0120",
+        "CX-0121",
+        "CX-0122",
+        "CX-0126",
+        "CX-0128",
+        "CX-0146"
+      ],
+      "non-normative": [
+        "CX-0145"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.days_of_supply:2.0.0"
+      ]
+    },
+    "CX-0146": {
+      "normative": [
+        "CX-0001",
+        "CX-0003",
+        "CX-0006",
+        "CX-0010",
+        "CX-0018",
+        "CX-0126"
+      ],
+      "non-normative": [
+        "CX-0146",
+        "CX-0002",
+        "CX-0118",
+        "CX-0120",
+        "CX-0121",
+        "CX-0122",
+        "CX-0128",
+        "CX-0145"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.demand_and_capacity_notification:2.0.0"
+      ]
+    },
+    "CX-0149": {
+      "normative": [
+        "CX-0010",
+        "CX-0011",
+        "CX-0015",
+        "CX-0050"
+      ],
+      "non-normative": [
+        "CX-0149",
+        "CX-0016",
+        "CX-0017",
+        "CX-0018"
+      ],
+      "aspect-models": []
+    },
+    "CX-0150": {
+      "normative": [
+        "CX-0001",
+        "CX-0002",
+        "CX-0003",
+        "CX-0018",
+        "CX-0105",
+        "CX-0126",
+        "CX-0127"
+      ],
+      "non-normative": [
+        "CX-0150"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.packing_list:1.0.0"
+      ]
+    },
+    "CX-0151": {
+      "normative": [
+        "CX-0018",
+        "CX-0003"
+      ],
+      "non-normative": [
+        "CX-0151",
+        "CX-0002"
+      ],
+      "aspect-models": [
+        "urn:samm:io.catenax.shared.message_header:3.0.0"
+      ]
+    }
+  }

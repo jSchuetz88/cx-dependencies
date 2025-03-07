@@ -71,10 +71,10 @@
     },
     "CX-0011": {
         "title": "Issuing Agency",
-        "status": 1,
+        "status": 0,
         "type": "",
         "category": "Undefined",
-        "url": "https://catenax-ev.github.io/docs/next/standards/CX-0011-IssuingAgency"
+        "url": "#"
     },
     "CX-0012": {
         "title": "Business Partner DataPool API",
@@ -890,7 +890,7 @@
     },
     "CX-0139": {
         "title": "Information as a Service - External Data Provider",
-        "status": 1,
+        "status": 0,
         "type": "",
         "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0139-InformationasaServiceExternalDataProvider"
@@ -943,5 +943,19 @@
         "type": "",
         "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0149-Dataspaceidentityandidentification"
+    },
+    "CX-0150": {
+        "title": "Logistics and Customs Use Case",
+        "status": 1,
+        "type": "",
+        "category": "Undefined",
+        "url": "#"
+    },
+    "CX-0151": {
+        "title": "Industry Core: Basics",
+        "status": 1,
+        "type": "",
+        "category": "Undefined",
+        "url": "#"
     }
 }
