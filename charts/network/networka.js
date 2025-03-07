@@ -125,7 +125,7 @@ function test(selectedId){
   for (var cxId of Object.keys(CX.getAllStandards('onlyValid'))){
     graph.nodes[i] = {"id": cxId, "group": 1, "title": cxId};
 
-    for (var dependencyId of CX.getStandard(cxId).getDependencies().getReferences('normative')){
+    for (var dependencyId of CX.getStandard(cxId).getDependencies().getNormativeReferences()){
       if(!CX.getStandard(dependencyId).isDeprecated()){
         graph.links[j] = {"source": cxId, "target": dependencyId, "value": 4};
         j++;

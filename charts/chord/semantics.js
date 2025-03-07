@@ -3,13 +3,13 @@ var json_resp_standards;
 var json_db;
 
 var requestSemantics = jQuery.ajax({
-  url: "./_data/r24.08/semantics.json",
+  url: "./_data/r25.03/semantics.json",
   method: "GET",
   dataType: "json"
 });
 
 var requestStandards = jQuery.ajax({
-  url: "./_data/r24.08/standards.json",
+  url: "./_data/r25.03/standards.json",
   method: "GET",
   dataType: "json"
 });
@@ -51,14 +51,16 @@ function doStart(){
   const keys = Object.keys(json_resp_standards);
   var mapping = Array();
   keys.forEach((key, index) => {
-    for (var j of Object.keys(json_resp_standards[key][1])){
-      if(!mapping[json_resp_standards[key][1][j]]) mapping[json_resp_standards[key][1][j]] = Array();
-      mapping[json_resp_standards[key][1][j]].push('<a href="'+json_db[key].url+'">'+key+'</a>');
+    for (var j of Object.keys(json_resp_standards[key]['aspect-models'])){
+      if(!mapping[json_resp_standards[key]['aspect-models'][j]]) mapping[json_resp_standards[key]['aspect-models'][j]] = Array();
+      mapping[json_resp_standards[key]['aspect-models'][j]].push('<a href="'+json_db[key].url+'">'+key+'</a>');
+      // console.log(json_resp_standards[key]['aspect-models'][j]+" : "+key);
     }
   });
 
   for (var sammId of Object.keys(mapping)){
     for (var samm of json_resp_semantics){
+      console.log(samm.id+" == "+sammId);
       if(samm.id == sammId){
         jQuery( "#sem_xxx_944 tbody" ).append('<tr>'
           +'<td>'+samm.id+'</td>'

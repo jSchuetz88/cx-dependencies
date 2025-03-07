@@ -2,7 +2,7 @@ jQuery(document ).ready(function() {
   new dbLoader().init('./_data/db.json', function(stdset){
     CX.Standards.Manager.init(stdset);
 
-    new dbLoader().init('./_data/r24.08/standards.json', function(depset){
+    new dbLoader().init('./_data/r25.03/standards.json', function(depset){
       CX.Standards.Manager.addDependencies(depset);
     });		
   });
@@ -29,6 +29,7 @@ CX.Standards.Manager.onReady(function(){
       z = 0;
       dm[x] = [];
 
+      console.log("iteration: "+i);
       for (var j of Object.keys(CX.getAllStandards('onlyValid'))){
           if(CX.getStandard(i).getDependencies().getReferences('normative').includes(j)){
             // console.log(x+" ; "+z+" => "+j);
