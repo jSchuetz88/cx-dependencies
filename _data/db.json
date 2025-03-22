@@ -204,21 +204,21 @@
     },
     "CX-0030": {
         "title": "Data Model BoMAsSpecified",
-        "status": 1,
+        "status": 0,
         "type": "",
         "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0030-DataModelBoMAsSpecified"
     },
     "CX-0031": {
         "title": "Data Model MaterialForHomologation",
-        "status": 1,
+        "status": 0,
         "type": "",
         "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0031-DataModelMaterialForHomologation"
     },
     "CX-0032": {
         "title": "Data Model PartAsSpecified",
-        "status": 1,
+        "status": 0,
         "type": "",
         "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0032-DataModelPartAsSpecified"
@@ -638,7 +638,7 @@
     },
     "CX-0094": {
         "title": "Aspect Model PartSiteInformationAsPlanned",
-        "status": 1,
+        "status": 0,
         "type": "",
         "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0094-AspectModelPartSiteInformationAsPlanned"
