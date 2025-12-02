@@ -50,7 +50,7 @@
     },
     "CX-0008": {
         "title": "Relevant Standards For Conformity Assessments",
-        "status": 1,
+        "status": 0,
         "type": "",
         "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0008-RelevantStandardsForConformityAssessments"
@@ -85,7 +85,7 @@
     },
     "CX-0013": {
         "title": "Identity Of Member Companies",
-        "status": 1,
+        "status": 0,
         "type": "",
         "category": "Undefined",
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0013-IdentityOfMemberCompanies"
@@ -953,6 +953,41 @@
     },
     "CX-0151": {
         "title": "Industry Core: Basics",
+        "status": 1,
+        "type": "",
+        "category": "Undefined",
+        "url": "#"
+    },
+    "CX-0152": {
+        "title": "Policy Constraints for Data Exchange",
+        "status": 1,
+        "type": "",
+        "category": "Undefined",
+        "url": "#"
+    },
+    "CX-0153": {
+        "title": "Tarrifs Use Case",
+        "status": 1,
+        "type": "",
+        "category": "Undefined",
+        "url": "#"
+    },
+    "CX-0154": {
+        "title": "Digital Engineering Master Data",
+        "status": 1,
+        "type": "",
+        "category": "Undefined",
+        "url": "#"
+    },
+    "CX-0155": {
+        "title": "Requirements",
+        "status": 1,
+        "type": "",
+        "category": "Undefined",
+        "url": "#"
+    },
+    "CX-0156": {
+        "title": "Geometry",
         "status": 1,
         "type": "",
         "category": "Undefined",

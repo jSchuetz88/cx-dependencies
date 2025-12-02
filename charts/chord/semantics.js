@@ -3,13 +3,13 @@ var json_resp_standards;
 var json_db;
 
 var requestSemantics = jQuery.ajax({
-  url: "./_data/r25.03/semantics.json",
+  url: "./_data/r25.09/semantics.json",
   method: "GET",
   dataType: "json"
 });
 
 var requestStandards = jQuery.ajax({
-  url: "./_data/r25.03/standards.json",
+  url: "./_data/r25.09/standards.json",
   method: "GET",
   dataType: "json"
 });
@@ -58,11 +58,9 @@ function doStart(){
     }
   });
 
-  // not really efficient, loop through all standards and check whether an aspect model is mentioned or not
   for (var sammId of Object.keys(mapping)){
     for (var samm of json_resp_semantics){
-      // if match, add to table
-      // console.log(samm.id+" == "+sammId);
+      console.log(samm.id+" == "+sammId);
       if(samm.id == sammId){
         jQuery( "#sem_xxx_944 tbody" ).append('<tr>'
           +'<td>'+samm.id+'</td>'
