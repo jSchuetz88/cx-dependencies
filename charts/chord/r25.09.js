@@ -2,7 +2,7 @@ jQuery(document ).ready(function() {
   new dbLoader().init('./_data/db.json', function(stdset){
     CX.Standards.Manager.init(stdset);
 
-    new dbLoader().init('./_data/r25.03/standards.json', function(depset){
+    new dbLoader().init('./_data/r25.09/standards.json', function(depset){
       CX.Standards.Manager.addDependencies(depset);
     });		
   });
