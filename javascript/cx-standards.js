@@ -99,6 +99,10 @@ function Dependencies(){
 		return this._dependencies[$type];
 	};
 
+	this.getAllReferences = function(){
+		return this._dependencies['normative'].concat(this._dependencies['non-normative']);
+	};
+
 	/*
 	this.getSemantics = function(){
 		return this._dependencies['aspect-models'];

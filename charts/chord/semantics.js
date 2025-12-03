@@ -59,18 +59,17 @@ function doStart(){
   });
 
   for (var sammId of Object.keys(mapping)){
-    for (var samm of json_resp_semantics){
-      console.log(samm.id+" == "+sammId);
-      if(samm.id == sammId){
-        jQuery( "#sem_xxx_944 tbody" ).append('<tr>'
-          +'<td>'+samm.id+'</td>'
-          +'<td>'+(samm.id.includes('bamm') ? '<span style="color: #FF0000;">BAMM</span>' : 'SAMM')+'</td>'
-          +'<td>'+(samm.status.includes('deprecate') ? '<span style="color: #FF0000;">'+samm.status+'</span>' : samm.status)+'</td>'
-          +'<td>'+mapping[samm.id].toString().split(','). join(', ')+'</td>'
-        +'</tr>');
-      }else{
-        // jQuery( "#sem_xxx_944" ).append('no match at: '+samm.id+'<br />');        
-      }
+    model = json_resp_semantics[sammId];
+
+    if (model == null) {
+      console.warn(`Kein Eintrag für sammId "${sammId}" gefunden.`);
+    }else{
+      jQuery( "#sem_xxx_944 tbody" ).append('<tr>'
+        +'<td>'+sammId+'</td>'
+        +'<td>'+(sammId.includes('bamm') ? '<span style="color: #FF0000;">BAMM</span>' : 'SAMM')+'</td>'
+        +'<td>'+(model.status.includes('deprecate') ? '<span style="color: #FF0000;">'+model.status+'</span>' : model.status)+'</td>'
+        +'<td>'+mapping[sammId].toString().split(','). join(', ')+'</td>'
+      +'</tr>');
     }
   }
 

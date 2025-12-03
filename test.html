@@ -11,13 +11,13 @@
 	<link href="./css/popup.css" rel="stylesheet" type="text/css" />
 	<link href="./charts/chord/style.css" rel="stylesheet" type="text/css" />
 	<link href="./css/dashboard.css" rel="stylesheet" type="text/css" />
+	<link href="./charts/adjutance/style.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="./javascript/ext.libraries/jquery-3.7.1.min.js"></script>
 	<script type="text/javascript" src="./javascript/ext.libraries/d3.v7.9.0.min.js"></script>
 	<script type="text/javascript" src="./javascript/utils.js"></script>
 	<script type="text/javascript" src="./javascript/dbLoader-0.1.0.js"></script>
 	<script type="text/javascript" src="./javascript/cx-standards.js"></script>
-	<script type="text/javascript" src="./charts/chord/r25.09.js"></script>	
-	<script type="text/javascript" src="./charts/network/network.js"></script>	
+	<script type="text/javascript" src="./charts/adjutance/chart-0.1.0.js"></script>	
 </head>
 <body>
 <div id="styl42dn"></div>
@@ -38,30 +38,9 @@
 </div>
 <div id="content">
 	<h1>Release: Jupiter (Preview) - Standards (Overview)</h1>
-	<div style="display: grid;grid-template-columns: 220px 220px 220px 220px 220px 220px 220px ;grid-template-rows: repeat(8, 110px); margin: 0 auto; width: 1540px;">
-		<div class="item" style="margin: 4px; grid-column-start: 1; grid-column-end: 5; grid-row-start: 1; grid-row-end: 9;">
-			<svg id="my_dataviz" width="100%" height="100%" viewBox="0 0 960 960"></svg>
-		</div>
-		<div class="item c1" style="margin: 4px 4px 4px 0; grid-column-start: 5; grid-column-end: 8; grid-row-start: 1; grid-row-end: 6;">
-			<h1 id="cx-id-view">&nbsp;</h1><hr />
-			<div class="dep_controls">
-				<div class="dep_settings l2" onClick="controls_network.toggle_l2dep();">
-					<div class="state"></div> 
-					<div class="descr">Show all 2. level references</div>
-				</div>
-				<div class="dep_settings ingoing active" onClick="controls_network.toggle_ingoing();">
-					<div class="state"></div>
-					<div class="descr">Show ingoing references</div>
-				</div>
-				<div class="dep_settings outgoing" onClick="controls_network.toggle_outgoing();">
-					<div class="state"></div>
-					<div class="descr">Show outgoing references</div>
-				</div>
-			</div>
-			<svg id="testssss" width="100%" height="100%" viewBox="0 0 650 410"></svg>
-		</div>
-		<div class="item" style="margin: 0 4px 4px 0; grid-column-start: 5; grid-column-end:8; grid-row-start: 6; grid-row-end: 9; overflow-y: scroll;">
-			<p id="cx-id-references"></p>
+	<div style="margin: 0 auto; width: 1540px;">
+		<div class="item" id="stash944" style="margin: 4px; grid-column-start: 1; grid-column-end: 5; grid-row-start: 1; grid-row-end: 9;">
+
 		</div>
 	</div>
 

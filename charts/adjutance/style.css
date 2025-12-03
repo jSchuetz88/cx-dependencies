@@ -1,0 +1,7 @@
+table th,
+table td {
+    font-size: 8px;
+    line-height: 7px;
+    text-align: center;
+    padding: 0;
+}
