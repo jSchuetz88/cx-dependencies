@@ -55,20 +55,21 @@ CX.Standards.Manager.onReady(function(){
   moveCrossTableId('CX-0044', 18);
   moveCrossTableId('CX-0045', 19);
   moveCrossTableId('CX-0126', 20);
-  moveCrossTableId('CX-0157', 21);
-  moveCrossTableId('CX-0151', 22);
+  moveCrossTableId('CX-0127', 21);
+  moveCrossTableId('CX-0157', 22);
+  moveCrossTableId('CX-0151', 23);
 
-  moveCrossTableId('CX-0055', 23);
-  moveCrossTableId('CX-0007', 24);
+  moveCrossTableId('CX-0055', 24);
+  moveCrossTableId('CX-0007', 25);
 
   // Ontologies
-  moveCrossTableId('CX-0067', 25);
-  moveCrossTableId('CX-0084', 26);
+  moveCrossTableId('CX-0067', 26);
+  moveCrossTableId('CX-0084', 27);
 
-  moveCrossTableId('CX-0014', 27);
-  moveCrossTableId('CX-0015', 28);
-  moveCrossTableId('CX-0054', 29);
-  moveCrossTableId('CX-0102', 30);
+  moveCrossTableId('CX-0014', 28);
+  moveCrossTableId('CX-0015', 29);
+  moveCrossTableId('CX-0054', 30);
+  moveCrossTableId('CX-0102', 31);
 
   // VAS
   moveCrossTableId('CX-0077', 63);
@@ -88,7 +89,7 @@ CX.Standards.Manager.onReady(function(){
       '<th colspan="5">BPDM</th>'+
       '<th colspan="3">Connector</th>'+
       '<th colspan="3">Wallet</th>'+
-      '<th colspan="7">DT / Industry Core</th>'+
+      '<th colspan="8">DT / Industry Core</th>'+
       '<th colspan="2">/</th>'+
       '<th colspan="2">Ontologies</th>'+
     '</tr>'
@@ -98,10 +99,10 @@ CX.Standards.Manager.onReady(function(){
     '<tr>'+
       '<th colspan="3"></th>'+
       '<th colspan="13">Network Services</th>'+
-      '<th colspan="11">Semantics / Integration</th>'+
+      '<th colspan="12">Semantics / Integration</th>'+
       '<th colspan="4" rowspan="2">/</th>'+
-      '<th colspan="29" rowspan="2">Use Cases</th>'+
-      '<th colspan="7" rowspan="2">Value Added Services</th>'+
+      '<th colspan="28" rowspan="2">Use Cases</th>'+
+      '<th colspan="6" rowspan="2">Value Added Services</th>'+
     '</tr>'
   );
 
@@ -109,15 +110,15 @@ CX.Standards.Manager.onReady(function(){
   jQuery("#xxx342 tr[data-cxId='CX-0010']").prepend('<th class="ax" rowspan="5"><span>BPDM</span></th>');
   jQuery("#xxx342 tr[data-cxId='CX-0001']").prepend('<th class="ax" rowspan="3"><span>Connector</span></th>');
   jQuery("#xxx342 tr[data-cxId='CX-0049']").prepend('<th class="ax" rowspan="3"><span>Wallet</span></th>');
-  jQuery("#xxx342 tr[data-cxId='CX-0002']").prepend('<th class="ax" rowspan="7"><span>DT / Industry Core</span></th>');
+  jQuery("#xxx342 tr[data-cxId='CX-0002']").prepend('<th class="ax" rowspan="8"><span>DT / Industry Core</span></th>');
   jQuery("#xxx342 tr[data-cxId='CX-0055']").prepend('<th class="ax" rowspan="2"><span><span>/</span></th>');
   jQuery("#xxx342 tr[data-cxId='CX-0067']").prepend('<th class="ax" rowspan="2"><span>Ontologies</span></th>');
   jQuery("#xxx342 tr[data-cxId='CX-0014']").prepend('<th class="ax" rowspan="4" colspan="2"><span>/</span></th>');
-  jQuery("#xxx342 tr[data-cxId='CX-0105']").prepend('<th class="ax" rowspan="29" colspan="2"><span>Use Cases</span></th>');
+  jQuery("#xxx342 tr[data-cxId='CX-0105']").prepend('<th class="ax" rowspan="28" colspan="2"><span>Use Cases</span></th>');
   jQuery("#xxx342 tr[data-cxId='CX-0077']").prepend('<th class="ax" rowspan="6" colspan="2"><span>Value Added Services</span></th>');
 
   jQuery("#xxx342 tr[data-cxId='CX-0006']").prepend('<th class="ax" rowspan="13"><span>Network Services</span></th>');
-  jQuery("#xxx342 tr[data-cxId='CX-0002']").prepend('<th class="ax" rowspan="11"><span>Semantics / Integration</span></th>');
+  jQuery("#xxx342 tr[data-cxId='CX-0002']").prepend('<th class="ax" rowspan="12"><span>Semantics / Integration</span></th>');
 
   /*
   jQuery('#xxx342').prepend(
@@ -136,6 +137,7 @@ CX.Standards.Manager.onReady(function(){
   jQuery("#xxx342 td[data-refId='CX-0076']").css("border-right-color", "#666");
   jQuery("#xxx342 td[data-refId='CX-0152']").css("border-right-color", "#666");
   jQuery("#xxx342 td[data-refId='CX-0149']").css("border-right-color", "#666");
+  jQuery("#xxx342 td[data-refId='CX-0151']").css("border-right-color", "#666");
   jQuery("#xxx342 td[data-refId='CX-0007']").css("border-right-color", "#666");
   jQuery("#xxx342 td[data-refId='CX-0084']").css("border-right-color", "#666");
   jQuery("#xxx342 td[data-refId='CX-0102']").css("border-right-color", "#666");
@@ -144,7 +146,6 @@ CX.Standards.Manager.onReady(function(){
  
   jQuery("#xxx342 tr[data-cxId='CX-0009'] td").css("border-bottom-color", "#666");
   jQuery("#xxx342 tr[data-cxId='CX-0076'] td").css("border-bottom-color", "#666");
-  jQuery("#xxx342 tr[data-cxId='CX-0152'] td").css("border-bottom-color", "#666");
   jQuery("#xxx342 tr[data-cxId='CX-0149'] td").css("border-bottom-color", "#666");
   jQuery("#xxx342 tr[data-cxId='CX-0151'] td").css("border-bottom-color", "#666");
   jQuery("#xxx342 tr[data-cxId='CX-0007'] td").css("border-bottom-color", "#666");
