@@ -18,3 +18,16 @@ table td:hover,
 table td.highlight {
     background-color: #EEE;
 }
+
+table th.ax {
+    max-width: 12px !important;
+}
+
+table th.ax span{
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    font-size: 8px;
+    display: block;
+    padding: 0;
+    margin-top: 30px;
+}
