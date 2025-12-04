@@ -28,61 +28,62 @@ CX.Standards.Manager.onReady(function(){
   jQuery('#stash944').html( renderCrossTable( matrix ) );
 
   // Onboarding
-  moveCrossTableId('CX-0006', 1);
-  moveCrossTableId('CX-0009', 2);
+  moveCrossTableId('CX-0006', 2);
+  moveCrossTableId('CX-0009', 3);
 
     // BPDM
-  moveCrossTableId('CX-0010', 3);
-  moveCrossTableId('CX-0012', 4);
-  moveCrossTableId('CX-0053', 5);
-  moveCrossTableId('CX-0074', 6);
-  moveCrossTableId('CX-0076', 7);
+  moveCrossTableId('CX-0010', 4);
+  moveCrossTableId('CX-0012', 5);
+  moveCrossTableId('CX-0053', 6);
+  moveCrossTableId('CX-0074', 7);
+  moveCrossTableId('CX-0076', 8);
 
   // EDC
-  moveCrossTableId('CX-0001', 8);
-  moveCrossTableId('CX-0018', 9);
-  moveCrossTableId('CX-0152', 10);
+  moveCrossTableId('CX-0001', 9);
+  moveCrossTableId('CX-0018', 10);
+  moveCrossTableId('CX-0152', 11);
 
   // Wallet
-  moveCrossTableId('CX-0049', 11);
-  moveCrossTableId('CX-0050', 12);
-  moveCrossTableId('CX-0149', 13);
+  moveCrossTableId('CX-0049', 12);
+  moveCrossTableId('CX-0050', 13);
+  moveCrossTableId('CX-0149', 14);
 
   // DT / IC
-  moveCrossTableId('CX-0002', 14);
-  moveCrossTableId('CX-0003', 15);
-  moveCrossTableId('CX-0044', 16);
-  moveCrossTableId('CX-0045', 17);
-  moveCrossTableId('CX-0126', 18);
-  moveCrossTableId('CX-0157', 19);
-  moveCrossTableId('CX-0151', 20);
+  moveCrossTableId('CX-0002', 15);
+  moveCrossTableId('CX-0003', 16);
+  moveCrossTableId('CX-0005', 17);
+  moveCrossTableId('CX-0044', 18);
+  moveCrossTableId('CX-0045', 19);
+  moveCrossTableId('CX-0126', 20);
+  moveCrossTableId('CX-0157', 21);
+  moveCrossTableId('CX-0151', 22);
 
-  moveCrossTableId('CX-0055', 21);
-  moveCrossTableId('CX-0007', 22);
+  moveCrossTableId('CX-0055', 23);
+  moveCrossTableId('CX-0007', 24);
 
   // Ontologies
-  moveCrossTableId('CX-0067', 23);
-  moveCrossTableId('CX-0084', 24);
+  moveCrossTableId('CX-0067', 25);
+  moveCrossTableId('CX-0084', 26);
 
-  moveCrossTableId('CX-0014', 25);
-  moveCrossTableId('CX-0015', 26);
-  moveCrossTableId('CX-0054', 27);
-  moveCrossTableId('CX-0102', 28);
+  moveCrossTableId('CX-0014', 27);
+  moveCrossTableId('CX-0015', 28);
+  moveCrossTableId('CX-0054', 29);
+  moveCrossTableId('CX-0102', 30);
 
   // VAS
-  moveCrossTableId('CX-0077', 62);
-  moveCrossTableId('CX-0078', 63);
-  moveCrossTableId('CX-0079', 64);
-  moveCrossTableId('CX-0080', 65);
-  moveCrossTableId('CX-0081', 66);
-  moveCrossTableId('CX-0116', 67);
+  moveCrossTableId('CX-0077', 63);
+  moveCrossTableId('CX-0078', 64);
+  moveCrossTableId('CX-0079', 65);
+  moveCrossTableId('CX-0080', 66);
+  moveCrossTableId('CX-0081', 67);
+  moveCrossTableId('CX-0116', 68);
 
-  moveCrossTableId('CX-0059', 29);
+  moveCrossTableId('CX-0059', 30);
   moveCrossTableId('CX-0156', 55);
 
   jQuery('#xxx342').prepend(
     '<tr>'+
-      '<th></th>'+
+      '<th colspan="3"></th>'+
       '<th colspan="2">Onboarding</th>'+
       '<th colspan="5">BPDM</th>'+
       '<th colspan="3">Connector</th>'+
@@ -95,7 +96,7 @@ CX.Standards.Manager.onReady(function(){
 
   jQuery('#xxx342').prepend(
     '<tr>'+
-      '<th></th>'+
+      '<th colspan="3"></th>'+
       '<th colspan="13">Network Services</th>'+
       '<th colspan="11">Semantics / Integration</th>'+
       '<th colspan="4" rowspan="2">/</th>'+
@@ -104,6 +105,33 @@ CX.Standards.Manager.onReady(function(){
     '</tr>'
   );
 
+  jQuery("#xxx342 tr[data-cxId='CX-0006']").prepend('<th class="ax" rowspan="2"><span>Onboarding</span></th>');
+  jQuery("#xxx342 tr[data-cxId='CX-0010']").prepend('<th class="ax" rowspan="5"><span>BPDM</span></th>');
+  jQuery("#xxx342 tr[data-cxId='CX-0001']").prepend('<th class="ax" rowspan="3"><span>Connector</span></th>');
+  jQuery("#xxx342 tr[data-cxId='CX-0049']").prepend('<th class="ax" rowspan="3"><span>Wallet</span></th>');
+  jQuery("#xxx342 tr[data-cxId='CX-0002']").prepend('<th class="ax" rowspan="7"><span>DT / Industry Core</span></th>');
+  jQuery("#xxx342 tr[data-cxId='CX-0055']").prepend('<th class="ax" rowspan="2"><span><span>/</span></th>');
+  jQuery("#xxx342 tr[data-cxId='CX-0067']").prepend('<th class="ax" rowspan="2"><span>Ontologies</span></th>');
+  jQuery("#xxx342 tr[data-cxId='CX-0014']").prepend('<th class="ax" rowspan="4" colspan="2"><span>/</span></th>');
+  jQuery("#xxx342 tr[data-cxId='CX-0105']").prepend('<th class="ax" rowspan="29" colspan="2"><span>Use Cases</span></th>');
+  jQuery("#xxx342 tr[data-cxId='CX-0077']").prepend('<th class="ax" rowspan="6" colspan="2"><span>Value Added Services</span></th>');
+
+  jQuery("#xxx342 tr[data-cxId='CX-0006']").prepend('<th class="ax" rowspan="13"><span>Network Services</span></th>');
+  jQuery("#xxx342 tr[data-cxId='CX-0002']").prepend('<th class="ax" rowspan="11"><span>Semantics / Integration</span></th>');
+
+  /*
+  jQuery('#xxx342').prepend(
+    '<tr>'+
+      '<th></th>'+
+      '<th rowspan="13">Network Services</th>'+
+      '<th rowspan="11">Semantics / Integration</th>'+
+      '<th rowspan="4" colspan="2">/</th>'+
+      '<th rowspan="29" colspan="2">Use Cases</th>'+
+      '<th rowspan="7" colspan="2">Value Added Services</th>'+
+    '</tr>'
+  );
+  */
+
   jQuery("#xxx342 td[data-refId='CX-0009']").css("border-right-color", "#666");
   jQuery("#xxx342 td[data-refId='CX-0076']").css("border-right-color", "#666");
   jQuery("#xxx342 td[data-refId='CX-0152']").css("border-right-color", "#666");
@@ -111,8 +139,18 @@ CX.Standards.Manager.onReady(function(){
   jQuery("#xxx342 td[data-refId='CX-0007']").css("border-right-color", "#666");
   jQuery("#xxx342 td[data-refId='CX-0084']").css("border-right-color", "#666");
   jQuery("#xxx342 td[data-refId='CX-0102']").css("border-right-color", "#666");
-  jQuery("#xxx342 td[data-refId='CX-0155']").css("border-right-color", "#666");
+  jQuery("#xxx342 td[data-refId='CX-0156']").css("border-right-color", "#666");
   jQuery("#xxx342 td[data-refId='CX-0116']").css("border-right-color", "#666");
+ 
+  jQuery("#xxx342 tr[data-cxId='CX-0009'] td").css("border-bottom-color", "#666");
+  jQuery("#xxx342 tr[data-cxId='CX-0076'] td").css("border-bottom-color", "#666");
+  jQuery("#xxx342 tr[data-cxId='CX-0152'] td").css("border-bottom-color", "#666");
+  jQuery("#xxx342 tr[data-cxId='CX-0149'] td").css("border-bottom-color", "#666");
+  jQuery("#xxx342 tr[data-cxId='CX-0151'] td").css("border-bottom-color", "#666");
+  jQuery("#xxx342 tr[data-cxId='CX-0007'] td").css("border-bottom-color", "#666");
+  jQuery("#xxx342 tr[data-cxId='CX-0084'] td").css("border-bottom-color", "#666");
+  jQuery("#xxx342 tr[data-cxId='CX-0102'] td").css("border-bottom-color", "#666");
+  jQuery("#xxx342 tr[data-cxId='CX-0156'] td").css("border-bottom-color", "#666");
 
   $("table td")
     .on("mouseenter", function() {
@@ -133,7 +171,7 @@ function renderCrossTable(matrix) {
   let html = `<table id="xxx342">`;
 
   // Kopfzeile mit Spaltenkeys
-  html += `<tr><th></th>`;
+  html += `<tr><th colspan="3"></th>`;
   for (const col of colKeys) {
     html += `<th data-cxId="${col}">${col}</th>`;
   }
@@ -167,7 +205,7 @@ function moveCrossTableId(id, newIndex) {
     var $table = $("table"); // deine Tabelle
     var $rows = $table.find("tr");
 
-    newIndex += 1;
+    newIndex += 2;
 
     // --- Zeile verschieben ---
     var $rowToMove = $rows.filter('[data-cxId="' + id + '"]');
