@@ -1,0 +1,20 @@
+table th,
+table td {
+    font-size: 8px;
+    line-height: 7px;
+    text-align: center;
+    padding: 0;
+}
+
+table th {
+    font-size: 8px;
+    line-height: 7px;
+    text-align: center;
+    border: 1px solid #666;
+    padding: 2px;
+}
+
+table td:hover,
+table td.highlight {
+    background-color: #EEE;
+}

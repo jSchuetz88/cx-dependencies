@@ -914,7 +914,7 @@
         "status": 1,
         "type": "",
         "category": "Undefined",
-        "url": "https://catenax-ev.github.io/docs/next/standards/CX-0143-UseCaseCircularEconomyDigitalProductPassportStandard"
+        "url": "https://catenax-ev.github.io/docs/next/standards/CX-0143-UseCaseCircularEconomyDigitalProductPassportStandard/introduction"
     },
     "CX-0144": {
         "title": "ESS Use Case Standard",
@@ -945,52 +945,52 @@
         "url": "https://catenax-ev.github.io/docs/next/standards/CX-0149-Dataspaceidentityandidentification"
     },
     "CX-0150": {
-        "title": "Logistics and Customs Use Case",
+        "title": "Logistics Use Case",
         "status": 1,
         "type": "",
         "category": "Undefined",
-        "url": "#"
+        "url": "https://catenax-ev.github.io/docs/next/standards/CX-0150-UseCaseLogistics"
     },
     "CX-0151": {
         "title": "Industry Core: Basics",
         "status": 1,
         "type": "",
         "category": "Undefined",
-        "url": "#"
+        "url": "https://catenax-ev.github.io/docs/next/standards/CX-0151-IndustryCoreBasics"
     },
     "CX-0152": {
         "title": "Policy Constraints for Data Exchange",
         "status": 1,
         "type": "",
         "category": "Undefined",
-        "url": "#"
+        "url": "https://catenax-ev.github.io/docs/next/standards/CX-0152-PolicyConstrainsForDataExchange"
     },
     "CX-0153": {
         "title": "Tarrifs Use Case",
         "status": 1,
         "type": "",
         "category": "Undefined",
-        "url": "#"
+        "url": "https://catenax-ev.github.io/docs/next/standards/CX-0153-TariffsUseCase"
     },
     "CX-0154": {
         "title": "Digital Engineering Master Data",
         "status": 1,
         "type": "",
         "category": "Undefined",
-        "url": "#"
+        "url": "https://catenax-ev.github.io/docs/next/standards/CX-0154-MasterDataManagement"
     },
     "CX-0155": {
         "title": "Requirements",
         "status": 1,
         "type": "",
         "category": "Undefined",
-        "url": "#"
+        "url": "https://catenax-ev.github.io/docs/next/standards/CX-0155-RequirementsEngineering"
     },
     "CX-0156": {
         "title": "Geometry",
         "status": 1,
         "type": "",
         "category": "Undefined",
-        "url": "#"
+        "url": "https://catenax-ev.github.io/docs/next/standards/CX-0156-Geometry"
     }
 }
